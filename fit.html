@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive,nosnippet"><meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet">
-<title>What Does Your Team Need? | J2</title>
+<title>Find the Fit | J2</title>
 <style>
 :root{color-scheme:dark;--bg:#080d14;--surface:#131c2a;--surface2:#1b2839;--line:#344055;--text:#f5f5f7;--muted:#bac6d8;--accent:#f0203e}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 3%,#52202b77,transparent 40%),var(--bg);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text)}.wrap{max-width:980px;margin:auto;padding:0 22px}a{color:#ff9eae}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ff9eae;outline-offset:3px}
@@ -14,39 +14,39 @@ header{border-bottom:1px solid var(--line);padding:18px 0}.nav{display:flex;just
 @media(max-width:760px){.layout{grid-template-columns:1fr}.hero{padding:34px 0 18px}.wrap{padding:0 16px}.panel{padding:18px}}
 @media print{body{background:#fff;color:#111}.panel,.evidence{background:#fff;color:#111}.nav,.actions,.option,.bottom{display:none}.layout{display:block}.hint,.evidence p{color:#333}}
 </style></head><body>
-<header><div class="wrap nav"><a class="brand" href="./index.html">J<b>2</b> / JORDAN L*THON</a><a class="back" href="./index.html">← Player profile</a></div></header>
-<main><section class="hero wrap"><div class="eyebrow">Coach's Fit Lab · First release</div><h1>What does your<br><em>team need?</em></h1><p class="lede">Choose up to three needs. See documented examples of why J2 could be worth evaluating—plus links to original footage and the questions a coach may want answered.</p></section>
+<header><div class="wrap nav"><a class="brand" href="./index.html">J<b>2</b> / JORDAN LATHON</a><a class="back" href="./index.html">← Player profile</a></div></header>
+<main><section class="hero wrap"><div class="eyebrow">J2 Coach’s Fit Lab</div><h1>What does your<br><em>team need?</em></h1><p class="lede">Choose the needs that matter to your rotation. See how Jordan’s professional experience and signature performances could fit.</p></section>
 <div class="wrap layout">
-<section class="panel" aria-labelledby="needsTitle"><span class="eyebrow">01 / Choose your scenarios</span><h2 id="needsTitle">Where can your rotation use help?</h2><p class="hint">Select one, two or three. No team information is collected.</p>
+<section class="panel" aria-labelledby="needsTitle"><span class="eyebrow">01 / Choose your scenarios</span><h2 id="needsTitle">Where can your rotation use help?</h2><p class="hint">Select one or more. Jordan’s case updates as you choose.</p>
 <label class="option"><input type="checkbox" value="playmaking"><span><strong>Need a secondary playmaker?</strong><small>Move the ball, create opportunities and support the lead guard.</small></span></label>
 <label class="option"><input type="checkbox" value="defense"><span><strong>Need defensive activity?</strong><small>Compete, generate disruptions and take challenging assignments.</small></span></label>
 <label class="option"><input type="checkbox" value="rebounds"><span><strong>Need someone to win extra possessions?</strong><small>Rebound, extend plays and contribute without high usage.</small></span></label>
-<p class="selected" id="selectedCount">0 of 3 selected</p>
-<div class="actions"><button id="evaluate" class="btn" disabled>See why J2 is worth a look</button><button id="reset" class="btn alt" type="button">Reset</button></div>
+<label class="option"><input type="checkbox" value="versatility"><span><strong>Need a versatile rotation guard?</strong><small>Complement high-usage players and contribute in different lineups.</small></span></label><p class="selected" id="selectedCount">0 of 4 selected</p>
+<div class="actions"><button id="reset" class="btn alt" type="button">Clear selections</button></div>
 </section>
-<section class="panel" aria-labelledby="resultsTitle"><span class="eyebrow">02 / Jordan's evidence</span><h2 id="resultsTitle">Make your selections.</h2><p id="summary" class="hint">Each scenario returns a relevant professional game and a question that film can help answer.</p><div class="result" id="result" aria-live="polite"><div class="empty">Evidence appears here after you select a scenario.</div></div></section>
+<section class="panel" aria-labelledby="resultsTitle"><span class="eyebrow">02 / Jordan's evidence</span><h2 id="resultsTitle">Make your selections.</h2><p id="summary" class="hint">Select a team need to see a performance, the basketball case and a link to the original source.</p><div class="result" id="result" aria-live="polite"><div class="empty">Choose a roster need to see why Jordan could fit.</div></div></section>
 </div>
 <section class="bottom"><div class="wrap"><span class="eyebrow">Keep exploring</span><h2>See J2 in action.</h2><p>Go beyond the box score with Jordan's game footage and professional game logs.</p><p><a href="./index.html#source-queue">Watch the film ↗</a> · <a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">Explore game logs ↗</a></p></div></section>
-</main><footer><div class="wrap">J2 · Jordan L*thon · Player profile</div></footer>
+</main><footer><div class="wrap">J2 · Jordan Lathon · Player profile</div></footer>
 <script>
 const DATA={
- playmaking:{label:"Secondary playmaking",game:"March 22, 2025 · vs Rip City Remix",stat:"14 AST · 3 TO · 9 REB",why:"An example of J2 facilitating offense while contributing on the glass.",caveat:"A single game doesn't establish reliable half-court playmaking. Evaluate decisions across full games.",film:"https://www.youtube.com/watch?v=mP7pEktTqbA"},
- defense:{label:"Defensive activity",game:"January 16, 2025 · vs Capital City Go-Go",stat:"3 STL · 2 BLK · 0 TO",why:"Recorded defensive events show J2 affecting possessions in this game.",caveat:"Watch his defensive energy, positioning and reads.",film:null},
- rebounds:{label:"Extra possessions",game:"March 22, 2025 · vs Rip City Remix",stat:"9 REB · 6 OREB · 14 AST",why:"Six offensive rebounds provide a concrete example of generating extra opportunities.",caveat:"Watch how he attacks the glass and creates additional opportunities.",film:"https://www.youtube.com/watch?v=mP7pEktTqbA"}
+ playmaking:{label:"Secondary playmaking",game:"March 22, 2025 · vs Rip City Remix",stat:"14 AST · 3 TO · 9 REB",why:"An example of J2 facilitating offense while contributing on the glass.",caveat:"Quick reads, quality passing decisions and his ability to keep an offense moving.",film:"https://www.youtube.com/watch?v=mP7pEktTqbA"},
+ defense:{label:"Defensive activity",game:"January 16, 2025 · vs Capital City Go-Go",stat:"3 STL · 2 BLK · 0 TO",why:"Recorded defensive events show J2 affecting possessions in this game.",caveat:"Ball pressure, effort, positioning and activity through a full defensive possession.",film:null},
+ rebounds:{label:"Extra possessions",game:"March 22, 2025 · vs Rip City Remix",stat:"9 REB · 6 OREB · 14 AST",why:"Six offensive rebounds provide a concrete example of generating extra opportunities.",caveat:"Rebounding outside his position and creating another chance for the offense.",film:"https://www.youtube.com/watch?v=mP7pEktTqbA"},
+ versatility:{label:"Rotation versatility",game:"January 1 and March 22, 2025 · Rip City Remix",stat:"20 PTS in one game · 14 AST in another · 12 starts",why:"Jordan has shown he can take on different roles: score when needed, set teammates up and contribute alongside other creators.",caveat:"How he spaces the floor, helps teammates and changes responsibilities within a lineup.",film:"https://www.youtube.com/watch?v=m62vAp3bOlc"}
 };
-const boxes=[...document.querySelectorAll('.option input')],count=document.getElementById('selectedCount'),evaluate=document.getElementById('evaluate'),result=document.getElementById('result');
+const boxes=[...document.querySelectorAll('.option input')],count=document.getElementById('selectedCount'),result=document.getElementById('result');
 const source="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153";
 function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node}
 function actionLink(href,label){const a=el('a','buttonlink',label+' ↗');a.href=href;a.rel='noopener';a.target='_blank';return a}
 function selection(){return boxes.filter(b=>b.checked).map(b=>b.value)}
-function refresh(){const selected=selection();count.textContent=selected.length+' of 3 selected';evaluate.disabled=!selected.length;for(const b of boxes)b.disabled=selected.length===3&&!b.checked}
+function refresh(){const selected=selection();count.textContent=selected.length+' of 4 selected';show()}
 function show(){const selected=selection();result.replaceChildren();if(!selected.length){result.append(el('div','empty','Choose a scenario to see game evidence.'));return;}
- document.getElementById('resultsTitle').textContent='Why J2 deserves consideration';
- document.getElementById('summary').textContent=selected.length+' need'+(selected.length===1?'':'s')+' selected · Documented examples and evaluation questions.';
- for(const key of selected){const x=DATA[key],card=el('article','evidence');card.append(el('span','tag','Professional game example'));card.append(el('h3','',x.label));card.append(el('p','',x.game));card.append(el('p','stat',x.stat));card.append(el('p','',x.why));card.append(el('p','caveat','What to watch: '+x.caveat));card.append(actionLink(source,'Game log'));if(x.film)card.append(actionLink(x.film,'Team game highlights'));result.append(card);}
+ document.getElementById('resultsTitle').textContent='Why J2 could fit';
+ document.getElementById('summary').textContent=selected.length+' roster need'+(selected.length===1?'':'s')+' selected · Signature games and basketball evidence.';
+ for(const key of selected){const x=DATA[key],card=el('article','evidence');card.append(el('span','tag','Professional game example'));card.append(el('h3','',x.label));card.append(el('p','',x.game));card.append(el('p','stat',x.stat));card.append(el('p','',x.why));card.append(el('p','caveat','On film: '+x.caveat));card.append(actionLink(source,'Game log'));if(x.film)card.append(actionLink(x.film,'Team game highlights'));result.append(card);}
 }
 for(const b of boxes)b.addEventListener('change',refresh);
-evaluate.addEventListener('click',show);
-document.getElementById('reset').addEventListener('click',()=>{for(const b of boxes){b.checked=false;b.disabled=false}refresh();result.replaceChildren(el('div','empty','Evidence appears here after you select a scenario.'));document.getElementById('resultsTitle').textContent='Make your selections.';document.getElementById('summary').textContent='Each scenario returns a relevant professional game and a question that film can help answer.'});
+document.getElementById('reset').addEventListener('click',()=>{for(const b of boxes){b.checked=false}refresh();result.replaceChildren(el('div','empty','Choose a roster need to see why Jordan could fit.'));document.getElementById('resultsTitle').textContent='Make your selections.';document.getElementById('summary').textContent='Select a team need to see a performance, the basketball case and a link to the original source.'});
 refresh();
 </script></body></html>
