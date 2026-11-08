@@ -1,0 +1,386 @@
+{
+  "checked": "2026-11-08",
+  "teams": [
+    {
+      "id": "san-diego",
+      "team": "San Diego Clippers",
+      "affiliate": "LA Clippers",
+      "priority": "Clarify first",
+      "order": 0,
+      "roles": [
+        "Secondary playmaking",
+        "Rotation versatility"
+      ],
+      "stage": "Training camp · Oct 26",
+      "fact": "The official camp roster included Jordan L*thon. A later RealGM transaction entry reports waivers on November 3; present availability and rights still need direct confirmation.",
+      "fit": "His prior San Diego experience provides a concrete starting point for feedback and a role discussion.",
+      "next": "Ask Jordan or his approved representative to clarify current status and whether a follow-up with his existing San Diego contacts makes sense.",
+      "context": "Camp included Cam Christie and Jalen Pickett on two-way contracts, plus Jason Preston, Blake Wesley and other perimeter players. Camp composition is historical context, not today’s depth chart.",
+      "counts": [
+        [
+          "G",
+          10
+        ],
+        [
+          "G/F",
+          1
+        ],
+        [
+          "F",
+          6
+        ],
+        [
+          "C",
+          1
+        ]
+      ],
+      "players": [
+        [
+          "Jordan L*thon",
+          "G",
+          "6′5″",
+          "Camp roster only"
+        ],
+        [
+          "Cam Christie",
+          "G",
+          "6′5″",
+          "Two-way in camp release"
+        ],
+        [
+          "Jalen Pickett",
+          "G",
+          "6′2″",
+          "Two-way in camp release"
+        ],
+        [
+          "Jason Preston",
+          "G",
+          "6′3″",
+          "Camp roster"
+        ],
+        [
+          "Blake Wesley",
+          "G",
+          "6′4″",
+          "Camp roster"
+        ],
+        [
+          "Miye Oni",
+          "G-F",
+          "6′5″",
+          "Camp roster"
+        ]
+      ],
+      "sourceDate": "2026-10-26",
+      "sources": [
+        [
+          "Official camp roster",
+          "https://sandiego.gleague.nba.com/news/san-diego-clippers-announce-2026-27-training-camp-roster",
+          "2026-10-26",
+          "Primary"
+        ],
+        [
+          "Reported November 3 waiver",
+          "https://basketball.realgm.com/gleague/teams/San-Diego-Clippers/69/Transaction-History",
+          "2026-11-03",
+          "Secondary · confirm directly"
+        ]
+      ],
+      "route": "https://sandiego.gleague.nba.com/staff-directory",
+      "routeLabel": "Official staff directory",
+      "checked": "2026-11-08",
+      "connection": "No personal introduction or recruiting recipient supplied.",
+      "vacancy": "Not confirmed"
+    },
+    {
+      "id": "wisconsin",
+      "team": "Wisconsin Herd",
+      "affiliate": "Milwaukee Bucks",
+      "priority": "Investigate",
+      "order": 1,
+      "roles": [
+        "Secondary playmaking",
+        "Extra possessions"
+      ],
+      "stage": "Opening roster · Nov 6",
+      "fact": "The opening release lists 12 players: nine Herd players and three Bucks two-way players. Five are listed at guard.",
+      "fit": "A secondary-playmaking and possession-winning pitch is worth testing against the existing guard rotation.",
+      "next": "Have the representative ask whether a complementary guard is relevant to current plans, then confirm the right recipient before sending film.",
+      "context": "Three non-two-way guards and two two-way guards appear in the release. A 12-player roster alone does not establish an available place.",
+      "counts": [
+        [
+          "G",
+          5
+        ],
+        [
+          "F",
+          6
+        ],
+        [
+          "C",
+          1
+        ]
+      ],
+      "players": [
+        [
+          "Ty Berry",
+          "G",
+          "6′3″",
+          "Local tryout"
+        ],
+        [
+          "Marcus Garrett",
+          "G",
+          "6′6″",
+          "Trade"
+        ],
+        [
+          "Cameron Parker",
+          "G",
+          "6′3″",
+          "Trade"
+        ],
+        [
+          "Kam Jones",
+          "G",
+          "6′4″",
+          "Two-way"
+        ],
+        [
+          "Cormac Ryan",
+          "G",
+          "6′5″",
+          "Two-way"
+        ]
+      ],
+      "sourceDate": "2026-11-06",
+      "sources": [
+        [
+          "Official opening roster",
+          "https://wisconsin.gleague.nba.com/news/wisconsin-herd-finalizes-2026-27-opening-night-roster",
+          "2026-11-06",
+          "Primary"
+        ]
+      ],
+      "route": null,
+      "routeLabel": "",
+      "checked": "2026-11-08",
+      "connection": "No personal introduction or recruiting recipient supplied.",
+      "vacancy": "Not confirmed"
+    },
+    {
+      "id": "long-island",
+      "team": "Long Island Nets",
+      "affiliate": "Brooklyn Nets",
+      "priority": "Investigate",
+      "order": 2,
+      "roles": [
+        "Secondary playmaking",
+        "Rotation versatility"
+      ],
+      "stage": "Opening roster · Nov 7",
+      "fact": "The opening announcement reports waivers on guards Tidjiane Dioumassi and Wooga Poplar. It also identifies incoming guards Dwight Murray Jr. and Isaiah Wong.",
+      "fit": "Recent perimeter changes create a useful reason to ask about the remaining role mix; they do not by themselves prove a guard shortage.",
+      "next": "Ask whether there is interest in reviewing a complementary guard’s film after the opening roster was set.",
+      "context": "The full roster is embedded as an image. The names below are guards explicitly identified in the article; no complete position count or minutes hierarchy is inferred.",
+      "counts": [],
+      "players": [
+        [
+          "Dwight Murray Jr.",
+          "G",
+          "Not extracted",
+          "Named in opening release"
+        ],
+        [
+          "Isaiah Wong",
+          "G",
+          "Not extracted",
+          "Named in opening release"
+        ]
+      ],
+      "sourceDate": "2026-11-07",
+      "sources": [
+        [
+          "Official opening roster and waivers",
+          "https://longisland.gleague.nba.com/news/long-island-nets-announce-opening-night-roster",
+          "2026-11-07",
+          "Primary"
+        ]
+      ],
+      "route": "https://longisland.gleague.nba.com/front-office",
+      "routeLabel": "Official front office directory",
+      "checked": "2026-11-08",
+      "connection": "No personal introduction or recruiting recipient supplied.",
+      "vacancy": "Not confirmed"
+    },
+    {
+      "id": "cleveland",
+      "team": "Cleveland Charge",
+      "affiliate": "Cleveland Cavaliers",
+      "priority": "Refresh roster",
+      "order": 3,
+      "roles": [
+        "Extra possessions",
+        "Rotation versatility"
+      ],
+      "stage": "Training camp · Oct 25",
+      "fact": "The 17-player camp list includes 10 players designated G. The source is a camp roster, not a verified opening-day list.",
+      "fit": "Jordan’s size and connector profile provide a comparison lens, but the camp’s existing guard group makes the opportunity unclear.",
+      "next": "Obtain the finalized roster and subsequent transactions before prioritizing a role-specific inquiry.",
+      "context": "Camp includes Kadary Richmond, Jaxson Robinson, Zack Austin, Sean McNeil and other guards. Final selections and assignments could change the picture.",
+      "counts": [
+        [
+          "G",
+          10
+        ],
+        [
+          "F",
+          5
+        ],
+        [
+          "F/C",
+          1
+        ],
+        [
+          "C",
+          1
+        ]
+      ],
+      "players": [
+        [
+          "Kadary Richmond",
+          "G",
+          "6′6″",
+          "Trade"
+        ],
+        [
+          "Jaxson Robinson",
+          "G",
+          "6′6″",
+          "Returning"
+        ],
+        [
+          "Zack Austin",
+          "G",
+          "6′5″",
+          "Trade"
+        ],
+        [
+          "Sean McNeil",
+          "G",
+          "6′4″",
+          "Returning"
+        ],
+        [
+          "Curtis Jones",
+          "G",
+          "6′3″",
+          "Affiliate"
+        ]
+      ],
+      "sourceDate": "2026-10-25",
+      "sources": [
+        [
+          "Official training camp roster",
+          "https://cleveland.gleague.nba.com/news/cleveland-charge-2026-training-camp-roster",
+          "2026-10-25",
+          "Primary"
+        ]
+      ],
+      "route": "https://cleveland.gleague.nba.com/charge-front-office",
+      "routeLabel": "Official front office directory",
+      "checked": "2026-11-08",
+      "connection": "No personal introduction or recruiting recipient supplied.",
+      "vacancy": "Not confirmed"
+    },
+    {
+      "id": "maine",
+      "team": "Maine Celtics",
+      "affiliate": "Boston Celtics",
+      "priority": "Monitor",
+      "order": 4,
+      "roles": [
+        "Secondary playmaking",
+        "Extra possessions"
+      ],
+      "stage": "Opening roster · Nov 3",
+      "fact": "Maine finalized 13 players, including three two-way players. Seven players in the published table are listed as guards.",
+      "fit": "The connector pitch is plausible, but the published guard group gives us less reason to assume an immediate need.",
+      "next": "Monitor guard-related roster changes and revisit if a specific role or introduction becomes available.",
+      "context": "Returning guards include Hayden Gray, Hank Morgan and D’Andre Davis. Devin Carter is listed as a two-way guard. Published positions do not establish actual rotation minutes.",
+      "counts": [
+        [
+          "G",
+          7
+        ],
+        [
+          "F",
+          4
+        ],
+        [
+          "C",
+          2
+        ]
+      ],
+      "players": [
+        [
+          "Hayden Gray",
+          "G",
+          "6′4″",
+          "Returning rights"
+        ],
+        [
+          "Hank Morgan",
+          "G",
+          "6′5″",
+          "Returning rights"
+        ],
+        [
+          "D’Andre Davis",
+          "G",
+          "6′6″",
+          "Returning rights"
+        ],
+        [
+          "Milos Uzan",
+          "G",
+          "6′3″",
+          "Affiliate"
+        ],
+        [
+          "Logan Johnson",
+          "G",
+          "6′2″",
+          "Returning rights"
+        ],
+        [
+          "Caleb Grill",
+          "G",
+          "6′3″",
+          "Returning rights"
+        ],
+        [
+          "Devin Carter",
+          "G",
+          "6′2″",
+          "Two-way"
+        ]
+      ],
+      "sourceDate": "2026-11-03",
+      "sources": [
+        [
+          "Official opening roster",
+          "https://maine.gleague.nba.com/news/roster-110326",
+          "2026-11-03",
+          "Primary"
+        ]
+      ],
+      "route": null,
+      "routeLabel": "",
+      "checked": "2026-11-08",
+      "connection": "No personal introduction or recruiting recipient supplied.",
+      "vacancy": "Not confirmed"
+    }
+  ]
+}
