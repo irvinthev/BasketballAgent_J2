@@ -120,6 +120,24 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 .proSeasonNote p{color:#b9c7d9;font-size:.9rem;margin:4px 0 6px}
 @media(max-width:800px){.dossierColumns{grid-template-columns:1fr}.dossierIntro,.dossierColumn,.dossierStats{padding:18px}.dossierIntro p{font-size:.98rem}.dossierStatsHeading{align-items:start;flex-direction:column;gap:2px}.seasonData{grid-template-columns:repeat(3,minmax(0,1fr))}.timelineRow{grid-template-columns:85px 1fr}}
 @media print{#journey{display:none!important}}
+
+/* Coach-facing scouting brief */
+.coachBrief .intro{max-width:740px}
+.coachBriefList{border-top:1px solid #485061;margin-top:28px}
+.coachQuestion{border-bottom:1px solid #414a5a}
+.coachQuestion summary{list-style:none;display:flex;align-items:baseline;gap:15px;cursor:pointer;position:relative;padding:20px 40px 20px 0;font-size:clamp(1.02rem,2vw,1.2rem);font-weight:800;line-height:1.42}
+.coachQuestion summary::-webkit-details-marker{display:none}
+.coachQuestion summary:after{content:"+";position:absolute;right:8px;top:19px;font-size:1.35rem;color:#fa6a80;font-weight:500}
+.coachQuestion[open] summary:after{content:"−"}
+.coachQuestion summary:focus-visible{outline:2px solid #ff8295;outline-offset:4px}
+.coachIndex{color:#ff8597;letter-spacing:.07em;font-size:.83rem;flex:none}
+.coachAnswer{padding:0 40px 21px 41px;max-width:800px;color:#c4d0df;font-size:.98rem}
+.coachAnswer p{margin:0 0 10px}
+.coachAnswer a{color:#ffa4b4;font-weight:750;font-size:.89rem}
+.coachBriefActions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.coachBriefActions .button{min-height:44px}
+@media(max-width:800px){.coachQuestion summary{gap:12px;padding:17px 30px 17px 0}.coachQuestion summary:after{right:3px;top:16px}.coachAnswer{padding:0 15px 19px 33px}.coachBriefActions .button{flex:1 1 150px}}
+@media print{#coach-brief{display:none!important}}
 </style>
 <link rel="stylesheet" href="./site-nav.css">
 </head>
@@ -173,7 +191,23 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 <details class="seasonRow"><summary><span><strong>2018–19 · UTEP</strong><small>NCAA Division I · Conference USA</small></span><span class="seasonToggle" aria-hidden="true">+</span></summary><div class="seasonData"><div><b>27</b><small>GP</small></div><div><b>10.9</b><small>PPG</small></div><div><b>5.0</b><small>RPG</small></div><div><b>2.7</b><small>APG</small></div><div><b>35.0%</b><small>3PT</small></div><div><b>40.0%</b><small>FG</small></div></div><p class="seasonCitation"><a href="https://utepminers.com/sports/mens-basketball/roster/jordan-lathon/6883" target="_blank" rel="noopener">UTEP player bio ↗</a> · <a href="https://www.sports-reference.com/cbb/players/jordan-lathon-1.html" target="_blank" rel="noopener">Season statistics ↗</a></p></details>
 <div class="proSeasonNote"><strong>2024–25 · San Diego Clippers</strong><p>NBA G League professional experience. For the pro season breakdown and competition-specific totals, review the original NBA G League record.</p><a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">Professional statistics ↗</a></div>
 </div></div></section>
-<section class="section" id="contact"><div class="wrap"><div class="eyebrow">05 / Professional inquiry</div><h2>Let’s talk about the next opportunity.</h2><p class="intro">For coaches, scouts and potential representation interested in a versatile guard who understands his role. Connect through Jordan’s approved professional contact once listed.</p><span class="placeholderLabel">REPRESENTATIVE CONTACT PENDING</span><p class="opportunityEntry"><a class="button" href="./opportunities.html">Explore team opportunities →</a></p><div class="sources"><strong>Source documents</strong><a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">NBA G League official profile ↗</a><a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">RealGM game logs ↗</a><a href="https://gleague.nba.com/game/mhu-vs-sdc-2022400025" target="_blank" rel="noopener">Official game page: Memphis Hustle ↗</a></div></div></section>
+<section class="section coachBrief" id="coach-brief" aria-labelledby="coachBriefTitle"><div class="wrap">
+<div class="eyebrow">05 / J2 Coach's Brief</div>
+<h2 id="coachBriefTitle">What a coach needs to know.</h2>
+<p class="intro">Eight quick questions about Jordan's game, role and next opportunity. Open the ones that matter to your rotation.</p>
+<div class="coachBriefList">
+<details class="coachQuestion" open><summary><span class="coachIndex">01</span><span>What job can he do for our team?</span></summary><div class="coachAnswer"><p>A 6'5" connective guard who can support primary creators, facilitate offense and compete for extra possessions. His strongest professional example is the 14-assist, nine-rebound game against Rip City.</p><a href="#game-playmaking">See signature performance ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">02</span><span>What does he contribute without the ball?</span></summary><div class="coachAnswer"><p>Rebounding, off-ball movement, extra passes and defensive activity. He collected six offensive rebounds in the March 22 game—a useful example of finding value beyond scoring.</p><a href="#film-pro">Watch professional film ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">03</span><span>Can he take different defensive assignments?</span></summary><div class="coachAnswer"><p>Jordan has experience across guard and wing assignments and describes himself as capable of guarding positions 1–4. His G League box scores include a five-steal game and a separate three-steal, two-block performance. The film is the best place to assess matchup fit.</p><a href="#games">View game evidence ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">04</span><span>Can he score when the role expands?</span></summary><div class="coachAnswer"><p>Yes—he recorded 20 points against Rip City and 18 against Capital City in selected professional games. At Morehead State, he averaged 15.6 points in 2023–24, including a 30-point performance at Indiana.</p><a href="#journey">Explore season history ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">05</span><span>How does he make decisions with the ball?</span></summary><div class="coachAnswer"><p>His March 22 G League performance included 14 assists against three turnovers; another game against Sioux Falls featured eight assists and two turnovers. Watch how he pushes tempo, makes the next pass and plays alongside a lead guard.</p><a href="#film-pro">Watch Jordan in action ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">06</span><span>What do his coaches say about him?</span></summary><div class="coachAnswer"><p>Jordan has shared encouraging feedback from previous coaches about his development and approach. Specific references or testimonials can be provided through an approved introduction rather than quoted here without permission.</p><a href="#contact">Discuss references ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">07</span><span>Is he available for an opportunity?</span></summary><div class="coachAnswer"><p>Jordan is a free agent and available to discuss G League opportunities, based on his current representation of his status. Teams can confirm timing, availability and paperwork directly during outreach.</p><a href="#contact">Start a conversation ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">08</span><span>What's the best way to evaluate him?</span></summary><div class="coachAnswer"><p>Start with the 2024–25 professional highlights, review his three signature games, then request full-game film or a workout aligned to the role you're considering.</p><a href="#source-queue">Browse the film library ↗</a></div></details>
+</div>
+<div class="coachBriefActions"><a class="button primary" href="#film-pro">▶ Watch professional film</a><a class="button" href="#contact">Discuss J2 →</a></div>
+</div></section>
+<section class="section" id="contact"><div class="wrap"><div class="eyebrow">06 / Professional inquiry</div><h2>Let’s talk about the next opportunity.</h2><p class="intro">For coaches, scouts and potential representation interested in a versatile guard who understands his role. Connect through Jordan’s approved professional contact once listed.</p><span class="placeholderLabel">REPRESENTATIVE CONTACT PENDING</span><p class="opportunityEntry"><a class="button" href="./opportunities.html">Explore team opportunities →</a></p><div class="sources"><strong>Source documents</strong><a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">NBA G League official profile ↗</a><a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">RealGM game logs ↗</a><a href="https://gleague.nba.com/game/mhu-vs-sdc-2022400025" target="_blank" rel="noopener">Official game page: Memphis Hustle ↗</a></div></div></section>
 </main>
 <section class="oneSheet" aria-label="Printable player one-sheet">
 <div class="sheetHeader"><div><span class="sheetKicker">J2 / PLAYER PROFILE</span><h1>Jordan L*thon</h1><p data-sheet="meta"></p></div><p class="sheetIdentity">THE PIANO MOVER<br><span>Professional basketball · Guard</span></p></div>
