@@ -7,7 +7,7 @@
  if(fitPage||teamsPage){setCurrent(fitPage?'fit':'teams');return;}
  links.forEach(a=>{if(['profile','film','dossier','contact'].includes(a.dataset.section))a.setAttribute('href',new URL(a.href).hash)});
  const sections=[...document.querySelectorAll('main>section[id]')];let scheduled=false;
- const update=()=>{scheduled=false;let key='profile';for(const s of sections){if(s.getBoundingClientRect().top<=header.getBoundingClientRect().height+90)key=s.id==='source-queue'?'film':s.id==='journey'?'dossier':s.id==='contact'?'contact':'profile'}setCurrent(key)};
+ const update=()=>{scheduled=false;let key='profile';for(const s of sections){if(s.getBoundingClientRect().top<=header.getBoundingClientRect().height+90)key=s.id==='source-queue'?'film':(s.id==='journey'||s.id==='coach-brief')?'dossier':s.id==='contact'?'contact':'profile'}setCurrent(key)};
  window.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(update)}},{passive:true});window.addEventListener('hashchange',update);update();
  const revealHash=()=>{let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{return}const target=id&&document.getElementById(id),group=target&&target.closest('details');if(group){group.open=true;target.scrollIntoView()}};
  window.addEventListener('hashchange',revealHash);revealHash();
