@@ -35,3 +35,11 @@ html{scroll-padding-top:calc(var(--site-header-height) + 16px)}body{overflow-wra
 }
 @media(max-width:390px){.heroActions .primary,.heroActions .contactQuickLink{grid-column:1/-1}}
 @media print{.contactQuickLink{display:none!important}}
+
+/* Fix: sticky mobile navigation must never create a second row. */
+@media(max-width:800px){
+.siteHeader .siteNavWrap{display:block;min-width:0;overflow:hidden}
+.siteHeader .siteLinks{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:stretch;justify-content:flex-start;grid-template-columns:none!important;width:100%;max-width:100%;min-width:0;height:48px;overflow-x:auto!important;overflow-y:hidden!important;white-space:nowrap;box-shadow:none!important;touch-action:pan-x pan-y}
+.siteHeader .siteLinks>a{display:inline-flex!important;position:relative;flex:0 0 auto!important;min-width:max-content;white-space:nowrap;align-self:stretch;min-height:48px;margin:0}
+.siteHeader .siteLinks::-webkit-scrollbar{display:none}
+}
