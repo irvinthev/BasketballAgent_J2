@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet"><meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet">
+<title>What Does Your Team Need? | J2</title>
+<style>
+:root{color-scheme:dark;--bg:#080d14;--surface:#131c2a;--surface2:#1b2839;--line:#344055;--text:#f5f5f7;--muted:#bac6d8;--accent:#f0203e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 3%,#52202b77,transparent 40%),var(--bg);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text)}.wrap{max-width:980px;margin:auto;padding:0 22px}a{color:#ff9eae}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ff9eae;outline-offset:3px}
+header{border-bottom:1px solid var(--line);padding:18px 0}.nav{display:flex;justify-content:space-between;align-items:center;gap:15px}.brand{font-weight:900;font-style:italic;text-decoration:none;color:var(--text);font-size:1.25rem}.brand b{color:var(--accent)}.back{font-size:.9rem}
+.hero{padding:56px 0 35px}.eyebrow{font-size:.75rem;letter-spacing:.14em;color:#ff8295;font-weight:800;text-transform:uppercase}h1{font-size:clamp(2.5rem,6vw,5rem);letter-spacing:-.065em;line-height:1.05;margin:14px 0}h1 em{color:var(--accent);font-style:normal}.lede{font-size:1.06rem;color:var(--muted);max-width:740px}
+.layout{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding-bottom:70px}.panel{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:24px}.panel h2{margin:5px 0 8px;font-size:1.55rem}.hint{color:var(--muted);font-size:.9rem;margin:3px 0 18px}
+.option{display:flex;align-items:flex-start;gap:13px;border:1px solid #44536b;background:var(--surface2);padding:17px;border-radius:10px;cursor:pointer;margin:12px 0}.option:has(input:checked){border-color:var(--accent);background:#352130}.option input{accent-color:var(--accent);height:20px;width:20px;flex-shrink:0;margin-top:4px}.option strong{display:block;font-size:1.07rem}.option small{color:#c0ccda;display:block;margin-top:4px}
+.btn{background:var(--accent);color:#fff;padding:12px 17px;border:0;border-radius:7px;font-size:1rem;font-weight:800;cursor:pointer}.btn:disabled{opacity:.55;cursor:not-allowed}.btn.alt{background:#22334a;border:1px solid #5a6b80}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.empty{border:1px dashed #667083;padding:45px 20px;border-radius:9px;text-align:center;color:var(--muted)}.result{margin-top:15px}.evidence{background:#0b1422;border:1px solid #42506a;border-radius:9px;padding:17px;margin:13px 0}.evidence h3{margin:2px 0 9px;font-size:1.1rem}.stat{color:#fff;font-weight:900;font-size:1.12rem;margin:5px 0}.evidence p{margin:9px 0;color:#c8d4e2}.tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:#ffc7d0}.buttonlink{display:inline-block;background:#24334b;text-decoration:none;padding:9px 13px;border-radius:6px;margin:8px 9px 0 0;color:#fff;font-size:.88rem;font-weight:760}.caveat{font-size:.88rem;color:#d3c4c7;border-left:3px solid var(--accent);padding-left:12px}.bottom{padding:25px 0 70px;border-top:1px solid var(--line)}.bottom p{max-width:850px;color:var(--muted)}.selected{font-size:.82rem;color:#f2b3c1;margin:4px 0 14px}footer{padding:25px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.hero{padding:34px 0 18px}.wrap{padding:0 16px}.panel{padding:18px}}
+@media print{body{background:#fff;color:#111}.panel,.evidence{background:#fff;color:#111}.nav,.actions,.option,.bottom{display:none}.layout{display:block}.hint,.evidence p{color:#333}}
+</style></head><body>
+<header><div class="wrap nav"><a class="brand" href="./index.html">J<b>2</b> / JORDAN L*THON</a><a class="back" href="./index.html">← Player profile</a></div></header>
+<main><section class="hero wrap"><div class="eyebrow">Coach's Fit Lab · First release</div><h1>What does your<br><em>team need?</em></h1><p class="lede">Choose up to three needs. See documented examples of why J2 could be worth evaluating—plus links to original footage and the questions a coach may want answered.</p></section>
+<div class="wrap layout">
+<section class="panel" aria-labelledby="needsTitle"><span class="eyebrow">01 / Choose your scenarios</span><h2 id="needsTitle">Where can your rotation use help?</h2><p class="hint">Select one, two or three. No team information is collected.</p>
+<label class="option"><input type="checkbox" value="playmaking"><span><strong>Need a secondary playmaker?</strong><small>Move the ball, create opportunities and support the lead guard.</small></span></label>
+<label class="option"><input type="checkbox" value="defense"><span><strong>Need defensive activity?</strong><small>Compete, generate disruptions and take challenging assignments.</small></span></label>
+<label class="option"><input type="checkbox" value="rebounds"><span><strong>Need someone to win extra possessions?</strong><small>Rebound, extend plays and contribute without high usage.</small></span></label>
+<p class="selected" id="selectedCount">0 of 3 selected</p>
+<div class="actions"><button id="evaluate" class="btn" disabled>See why J2 is worth a look</button><button id="reset" class="btn alt" type="button">Reset</button></div>
+</section>
+<section class="panel" aria-labelledby="resultsTitle"><span class="eyebrow">02 / Jordan's evidence</span><h2 id="resultsTitle">Make your selections.</h2><p id="summary" class="hint">Each scenario returns a relevant professional game and a question that film can help answer.</p><div class="result" id="result" aria-live="polite"><div class="empty">Evidence appears here after you select a scenario.</div></div></section>
+</div>
+<section class="bottom"><div class="wrap"><span class="eyebrow">How to interpret the evidence</span><h2>A reason to watch—not a promise of fit.</h2><p>These scenarios are intentionally curated around J2's strongest documented professional moments. A recorded box-score statistic is a fact about that game; a claim that it demonstrates a reliable skill is a scouting interpretation. This first release does not infer team roster needs, provide a fit score, or independently grade full games.</p><p>Jordan has reported playing positions 1–4 in camp and has described himself as a high-IQ, coachable connector. Those are useful questions for a coach and his references—not independently validated ratings here. NBA player references such as Caruso, Dunn, Hart and Payton II are role archetypes, not equivalent-performance claims.</p><p><a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">Source: RealGM game logs ↗</a> · <a href="./index.html#source-queue">J2 film library ↗</a></p></div></section>
+</main><footer><div class="wrap">J2 player-marketing concept · No affiliation with the NBA G League or any team.</div></footer>
+<script>
+const DATA={
+ playmaking:{label:"Secondary playmaking",game:"March 22, 2025 · vs Rip City Remix",stat:"14 AST · 3 TO · 9 REB",why:"An example of J2 facilitating offense while contributing on the glass.",caveat:"A single game doesn't establish reliable half-court playmaking. Evaluate decisions across full games.",film:"https://www.youtube.com/watch?v=mP7pEktTqbA"},
+ defense:{label:"Defensive activity",game:"January 16, 2025 · vs Capital City Go-Go",stat:"3 STL · 2 BLK · 0 TO",why:"Recorded defensive events show J2 affecting possessions in this game.",caveat:"Steals and blocks do not, by themselves, establish one-on-one coverage quality or 1–4 versatility.",film:null},
+ rebounds:{label:"Extra possessions",game:"March 22, 2025 · vs Rip City Remix",stat:"9 REB · 6 OREB · 14 AST",why:"Six offensive rebounds provide a concrete example of generating extra opportunities.",caveat:"Check contested rebounds, box-outs and how frequently this impact appears across games.",film:"https://www.youtube.com/watch?v=mP7pEktTqbA"}
+};
+const boxes=[...document.querySelectorAll('.option input')],count=document.getElementById('selectedCount'),evaluate=document.getElementById('evaluate'),result=document.getElementById('result');
+const source="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153";
+function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node}
+function actionLink(href,label){const a=el('a','buttonlink',label+' ↗');a.href=href;a.rel='noopener';a.target='_blank';return a}
+function selection(){return boxes.filter(b=>b.checked).map(b=>b.value)}
+function refresh(){const selected=selection();count.textContent=selected.length+' of 3 selected';evaluate.disabled=!selected.length;for(const b of boxes)b.disabled=selected.length===3&&!b.checked}
+function show(){const selected=selection();result.replaceChildren();if(!selected.length){result.append(el('div','empty','Choose a scenario to see game evidence.'));return;}
+ document.getElementById('resultsTitle').textContent='Why J2 deserves consideration';
+ document.getElementById('summary').textContent=selected.length+' need'+(selected.length===1?'':'s')+' selected · Documented examples and evaluation questions.';
+ for(const key of selected){const x=DATA[key],card=el('article','evidence');card.append(el('span','tag','Professional game example'));card.append(el('h3','',x.label));card.append(el('p','',x.game));card.append(el('p','stat',x.stat));card.append(el('p','',x.why));card.append(el('p','caveat','What to verify: '+x.caveat));card.append(actionLink(source,'Game log'));if(x.film)card.append(actionLink(x.film,'Team game highlights'));result.append(card);}
+}
+for(const b of boxes)b.addEventListener('change',refresh);
+evaluate.addEventListener('click',show);
+document.getElementById('reset').addEventListener('click',()=>{for(const b of boxes){b.checked=false;b.disabled=false}refresh();result.replaceChildren(el('div','empty','Evidence appears here after you select a scenario.'));document.getElementById('resultsTitle').textContent='Make your selections.';document.getElementById('summary').textContent='Each scenario returns a relevant professional game and a question that film can help answer.'});
+refresh();
+</script></body></html>
