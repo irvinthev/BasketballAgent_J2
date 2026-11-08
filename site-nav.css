@@ -16,3 +16,22 @@ html{scroll-padding-top:calc(var(--site-header-height) + 16px)}body{overflow-wra
 .fit-page .hero.wrap{padding-left:22px;padding-right:22px}
 @media(max-width:800px){.fit-page .hero.wrap{padding:30px 16px 24px}.fit-page .hero h1{font-size:clamp(2.5rem,11vw,3.2rem);line-height:1.03;letter-spacing:-.04em}}
 
+
+/* P0: mobile legibility and navigation affordance, without changing page content. */
+@media(max-width:800px){
+.siteNavWrap{position:relative}
+.siteLinks{scroll-snap-type:x proximity;scroll-padding-inline:4px;box-shadow:inset -12px 0 12px -12px #cbd5e5}
+.siteLinks a{font-size:14px;line-height:1.25;padding-inline:14px;scroll-snap-align:start}
+.siteLinks a[aria-current],.siteLinks a[aria-current="page"]{color:#fff;background:#ee193724;border-bottom:3px solid #f0203e}
+.siteLinks:focus-within{scroll-behavior:smooth}
+.heroActions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.heroActions .button{font-size:14px;padding:12px 10px;min-height:48px;white-space:normal}
+.heroActions .primary,.heroActions .contactQuickLink{grid-column:span 1}
+.heroActions .secondaryHeroLink{font-size:13px}
+.intro,.lede,.card p,.newSource p,.filmGuide p,.statnote,.filmFooter,.coachBriefActions p{font-size:max(16px,1rem);line-height:1.55}
+.card .tag,.eyebrow,.date,.placeholderLabel,.newSourceContent .placeholderLabel{font-size:max(13px,.8125rem)}
+.stat span,.statnote small,.meta span,.achievementStrip small{font-size:max(13px,.8125rem)}
+.roleEvidence,.filmFooter a,.card a{font-size:max(14px,.875rem)}
+}
+@media(max-width:390px){.heroActions .primary,.heroActions .contactQuickLink{grid-column:1/-1}}
+@media print{.contactQuickLink{display:none!important}}
