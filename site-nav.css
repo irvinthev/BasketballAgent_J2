@@ -43,3 +43,6 @@ html{scroll-padding-top:calc(var(--site-header-height) + 16px)}body{overflow-wra
 .siteHeader .siteLinks>a{display:inline-flex!important;position:relative;flex:0 0 auto!important;min-width:max-content;white-space:nowrap;align-self:stretch;min-height:48px;margin:0}
 .siteHeader .siteLinks::-webkit-scrollbar{display:none}
 }
+
+/* Scout-first mobile navigation; scrolling tabs remain accessible. */
+@media(max-width:800px){.siteHeader .siteNavWrap{padding-top:10px}.siteHeader .siteLinks{scroll-padding-left:12px;border-top:1px solid #29384b}.siteHeader .siteLinks>a{font-size:14px;padding-inline:13px}.siteHeader .siteLinks>a:focus-visible{outline-offset:-4px}.siteHeader .siteNavWrap:after{content:"Swipe tabs for more →";display:block;text-align:right;font-size:10px;line-height:17px;color:#9faec5;padding-right:12px;pointer-events:none}}
