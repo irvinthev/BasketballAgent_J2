@@ -216,6 +216,35 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 .filmLibrary .filmList{align-items:start}
 #film-pro{scroll-margin-top:90px}
 @media(max-width:760px){.filmLibrary{margin-top:20px;padding-top:20px}}
+
+/* Coach-facing editorial feature: short personal story, not a separate blog */
+.coachStory{margin:26px 0 2px;padding:27px 30px;border:1px solid #504251;border-left:4px solid #ee1937;border-radius:12px;background:linear-gradient(115deg,#1b1e2b,#0f1622)}
+.coachStoryKicker{display:block;color:#ff94a5;font-weight:850;font-size:.68rem;letter-spacing:.15em;line-height:1.5}
+.coachStoryHeader h3{font-size:clamp(1.65rem,3.3vw,2.55rem);line-height:1.12;margin:9px 0 7px;letter-spacing:-.045em}
+.coachStoryDeck{color:#bdcadb;font-size:1.02rem;line-height:1.5;margin:0;max-width:720px}
+.coachStoryMain{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(240px,.8fr);gap:30px;margin:23px 0 0}
+.coachStoryCopy p{color:#d3deeb;font-size:.96rem;line-height:1.65;margin:0 0 13px}
+.coachStoryCopy strong{color:#fff}
+.coachStoryCopy a,.coachStoryQuote a,.coachStoryJump{color:#ffa8b7;font-weight:800}
+.coachStoryQuote{border-left:1px solid #625364;padding:4px 0 8px 23px;align-self:start}
+.coachStoryQuote span{color:#ff97a8;font-size:.67rem;letter-spacing:.13em;font-weight:850}
+.coachStoryQuote blockquote{font-size:clamp(1.13rem,2.1vw,1.45rem);font-weight:750;line-height:1.42;letter-spacing:-.025em;margin:14px 0 10px;color:#f7f6fa}
+.coachStoryQuote p{font-size:.79rem;color:#a6b5c8;margin:0 0 19px}
+.coachStoryQuote a{font-size:.89rem}
+.coachVoices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:15px 0 12px}
+.coachVoice{border-top:1px solid #4a4c5a;padding-top:13px}
+.coachVoice span{color:#e8a8b1;font-size:.69rem;font-weight:800;letter-spacing:.075em}
+.coachVoice p{margin:6px 0 0;color:#b0bbcb;font-size:.84rem;line-height:1.5}
+.coachStoryJump{display:inline-flex;margin-top:11px;font-size:.86rem;min-height:32px;align-items:center}
+#coach-questions{scroll-margin-top:90px}
+.coachFit{margin-top:27px;padding:24px 27px;border:1px solid #4a4c5d;border-radius:11px;background:#121a29}
+.coachFit h3{font-size:clamp(1.35rem,2.7vw,1.9rem);margin:5px 0 4px;line-height:1.2}
+.coachFit>p{font-size:.93rem;color:#c0cee0;margin:0 0 15px;max-width:760px}
+.coachFitGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.coachFitGrid>div{border-top:2px solid #df3f56;padding-top:11px}
+.coachFitGrid strong{font-size:.91rem;color:#fff}
+.coachFitGrid p{font-size:.83rem;line-height:1.53;color:#b9c8da;margin:5px 0 0}
+@media(max-width:760px){.coachStory{padding:19px 17px}.coachStoryMain{grid-template-columns:1fr;gap:12px}.coachStoryQuote{border-left:0;border-top:1px solid #625364;padding:19px 0 4px}.coachVoices{grid-template-columns:1fr;gap:11px}.coachFit{padding:19px 17px}.coachFitGrid{grid-template-columns:1fr;gap:13px}.coachStoryHeader h3{font-size:1.8rem}.coachBriefActions .button{width:100%;flex:1 1 100%}}
 </style>
 <link rel="stylesheet" href="./site-nav.css">
 </head>
@@ -301,8 +330,41 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 <section class="section coachBrief" id="coaches" aria-labelledby="coachBriefTitle"><span id="coach-brief" class="legacySectionAnchor" aria-hidden="true"></span><div class="wrap">
 <div class="eyebrow">04 / Coaches</div>
 <h2 id="coachBriefTitle">What a coach needs to know.</h2>
-<p class="intro">Jordan calls himself a “piano mover”: a defender and connector who embraces the work behind winning. These six questions connect that role to his professional evidence and evaluation needs.</p>
-<div class="coachBriefList">
+<p class="intro">A quick look at how Jordan sees his role, followed by six questions a coaching staff can use to evaluate his fit.</p>
+<article class="coachStory" aria-labelledby="coachStoryTitle">
+  <div class="coachStoryHeader">
+    <span class="coachStoryKicker">THE PLAYER BEHIND THE NUMBERS / FROM CONVERSATIONS WITH JORDAN</span>
+    <h3 id="coachStoryTitle">He knows the job he's applying for.</h3>
+    <p class="coachStoryDeck">The players Jordan studies tell you something about the player he's trying to become.</p>
+  </div>
+  <div class="coachStoryMain">
+    <div class="coachStoryCopy">
+      <p>Most young guards can tell you about the stars they admire. When I asked Jordan Lathon which NBA players he studies, his answer caught my attention: <strong>Kris Dunn, Alex Caruso, Josh Hart and Gary Payton II.</strong></p>
+      <p>Different players, different strengths. But they all understand how to impact winning without needing the offense built around them. They defend, rebound, communicate and make the next play.</p>
+      <p>Jordan calls that kind of work being a <strong>“piano mover.”</strong> The guy doing the hard work that helps the other four players succeed.</p>
+      <p>Then I looked at his March 22 game against Rip City: <strong>8 points, 14 assists, 9 rebounds and 5 steals.</strong> Not a complete evaluation, but a compelling reason to look beyond points per game and watch the possessions. <a href="#game-playmaking">Explore that performance ↗</a></p>
+      <p><strong>Here's the recruiting question:</strong> if your roster needs a physical guard who can defend at the point of attack, move the ball and create extra possessions, isn't that a role worth evaluating?</p>
+    </div>
+    <aside class="coachStoryQuote" aria-label="Jordan's words about his role">
+      <span>JORDAN / IN HIS OWN WORDS</span>
+      <blockquote>“The things I do aren’t about looking cool or getting credit. My job is to be relentless, compete every possession and make sure we win the possession battle.”</blockquote>
+      <p>Jordan on the “piano mover” mindset</p>
+      <a href="#film-pro">Watch his professional film ↗</a>
+    </aside>
+  </div>
+  <div class="coachVoices" aria-label="Additional firsthand perspectives to be added">
+    <div class="coachVoice">
+      <span>TEAMMATE PERSPECTIVE / COMING SOON</span>
+      <p>What is Jordan like to play alongside? A firsthand teammate observation will be added after the conversation and approval.</p>
+    </div>
+    <div class="coachVoice">
+      <span>COACH'S PERSPECTIVE / COMING SOON</span>
+      <p>What role did Jordan earn in practice and games? A direct coaching perspective will be added when available for publication.</p>
+    </div>
+  </div>
+  <a class="coachStoryJump" href="#coach-questions">Six scouting questions ↓</a>
+</article>
+<div class="coachBriefList" id="coach-questions" aria-label="Six scouting questions">
 <details class="coachQuestion" open><summary><span class="coachIndex">01</span><span>What role can he fill—and what happens without the ball?</span></summary><div class="coachAnswer"><p>Jordan is a 6'5" connective guard who can support a lead creator, move the ball, rebound and compete for extra possessions. His March 22 performance against Rip City featured 14 assists, nine rebounds and six offensive boards. His contributions don't have to start with a shot attempt.</p><a href="#game-playmaking">Explore his all-around game ↗</a></div></details>
 <details class="coachQuestion"><summary><span class="coachIndex">02</span><span>Can he take challenging defensive assignments?</span></summary><div class="coachAnswer"><p>Jordan reports experience defending positions 1–4. On the professional level, he recorded five steals against Rip City and three steals with two blocks against Capital City. His game film provides the best look at his positioning, activity and matchup versatility.</p><a href="#film">Watch professional film ↗</a></div></details>
 <details class="coachQuestion"><summary><span class="coachIndex">03</span><span>Can he score when the role expands?</span></summary><div class="coachAnswer"><p>His professional highlights include 20 points against Rip City and 18 against Capital City. At Morehead State, he averaged 15.6 points in 2023–24 and scored 30 against Indiana.</p><a href="#games">See his signature games ↗</a></div></details>
@@ -310,7 +372,17 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 <details class="coachQuestion"><summary><span class="coachIndex">05</span><span>What would his former coaches tell us?</span></summary><div class="coachAnswer"><p>Jordan has shared encouraging coaching feedback about his approach and development. Specific references can be discussed through an approved introduction. The Morehead State senior reflections video also offers a window into his playing journey.</p><a href="#film">Explore his player story ↗</a></div></details>
 <details class="coachQuestion"><summary><span class="coachIndex">06</span><span>Is he available, and what's the next evaluation step?</span></summary><div class="coachAnswer"><p>Jordan is an unrestricted free agent, according to his current status confirmation, and is available for a G League conversation. Start with his professional highlights and four featured performances, then discuss full-game footage, a workout or a conversation with his coaching references.</p><a href="#contact">Discuss the next opportunity ↗</a></div></details>
 </div>
-<div class="coachBriefActions"><a class="button primary" href="#film-pro">▶ Watch professional film</a><a class="button" href="#contact">Discuss J2 →</a></div>
+<div class="coachFit" aria-labelledby="coachFitTitle">
+  <span class="coachStoryKicker">THE BASKETBALL CASE / WHAT HE CAN BRING</span>
+  <h3 id="coachFitTitle">Coach, here's where J2 fits.</h3>
+  <p>Not a request to build the offense around him. A chance to evaluate a complementary guard with professional film, experience, and a defined role.</p>
+  <div class="coachFitGrid">
+    <div><strong>01 / Defend your perimeter</strong><p>Physical point-of-attack effort and the willingness to take difficult guard assignments.</p></div>
+    <div><strong>02 / Connect your offense</strong><p>Move the ball, find teammates and support a lead creator without demanding touches.</p></div>
+    <div><strong>03 / Win extra possessions</strong><p>Rebound from the guard spot, compete on loose balls and keep plays alive.</p></div>
+  </div>
+</div>
+<div class="coachBriefActions"><a class="button primary" href="#film-pro">▶ Watch professional film</a><button class="button" type="button" onclick="window.print()" aria-label="Print or save a PDF of Jordan Lathon's one-page scouting brief">Save / print one-page brief</button><a class="button" href="#contact">Discuss J2 →</a></div>
 </div></section>
 <section class="section" id="contact"><div class="wrap"><div class="eyebrow">05 / Contact</div><h2>Let’s talk about the next opportunity.</h2><p class="intro">For coaches, scouts and professional teams evaluating Jordan for his next playing opportunity. Connect through Jordan’s approved professional contact once listed.</p><span class="placeholderLabel">PROFESSIONAL CONTACT DETAILS PENDING</span><div class="sources"><strong>Source documents</strong><a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">NBA G League official profile ↗</a><a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">RealGM game logs ↗</a><a href="https://gleague.nba.com/game/mhu-vs-sdc-2022400025" target="_blank" rel="noopener">Official game page: Memphis Hustle ↗</a></div></div></section>
 </main>
