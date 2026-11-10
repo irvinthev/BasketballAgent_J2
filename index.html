@@ -264,6 +264,69 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 #film .j2FilmArchive .filmFooter{margin-top:20px}
 @media(max-width:600px){#film .j2FilmArchiveToggle{padding:15px;align-items:flex-start}#film .j2FilmArchiveToggleText small{max-width:260px}#film .j2FilmArchiveRight{font-size:0;gap:0}#film .j2FilmArchiveRight .j2FilmArchiveChevron{font-size:1.6rem}#film .j2FilmArchiveBody{padding:12px}}
 </style>
+<style>
+/* Recruiting-first home page: concise narrative, immediate proof, details on demand. */
+#role,#film,#games,#dossier,#coaches{padding-top:44px;padding-bottom:48px}
+.j2HeroClean{padding-top:52px;padding-bottom:42px}
+.j2HeroClean .j2HeroAvailability{margin-bottom:0}
+.j2StreamlinedRole .j2StoryGrid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.9fr);gap:24px;align-items:start}
+.j2StreamlinedRole .j2StoryCopy h2{font-size:clamp(2rem,3.5vw,3rem);max-width:710px;margin:5px 0 15px}
+.j2StreamlinedRole .j2StoryCopy p{color:#c8d4e4;font-size:.96rem;line-height:1.55;margin:0 0 12px;max-width:700px}
+.j2StreamlinedRole .j2StoryCopy strong{color:#f6f8fc}
+.j2StreamlinedRole .j2StoryQuote{border-left:3px solid #f0203e;padding:16px 18px;background:#161f30;border-radius:0 10px 10px 0}
+.j2StreamlinedRole .j2StoryQuote span{font-size:.68rem;color:#ff91a6;font-weight:850;letter-spacing:.1em}
+.j2StreamlinedRole .j2StoryQuote blockquote{padding:0;margin:10px 0 0;font-weight:760;font-size:clamp(1.03rem,1.6vw,1.27rem);line-height:1.5}
+.j2StreamlinedRole .j2RoleProof{margin-top:14px}
+.j2StreamlinedRole .j2RoleProofHeading{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:11px}
+.j2StreamlinedRole .j2RoleProofHeading h3{font-size:1.08rem;margin:0}
+.j2StreamlinedRole .j2RoleProofHeading a{font-size:.82rem;color:#ff9db0}
+.j2StreamlinedRole .j2RoleProofGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.j2StreamlinedRole .j2RoleProofGrid .game{min-height:0;padding:14px 17px;display:flex;flex-direction:column;gap:4px}
+.j2StreamlinedRole .j2RoleProofGrid .game h3{font-size:1.02rem;margin:0}
+.j2StreamlinedRole .j2RoleProofGrid .game .date{font-size:.74rem}
+.j2StreamlinedRole .j2RoleProofGrid .game .numbers{margin:2px 0;font-size:.96rem}
+.j2StreamlinedRole .j2RoleProofGrid .game .numbers b{font-size:1.32rem}
+.j2StreamlinedRole .j2RoleProofGrid .game p{font-size:.8rem;line-height:1.4;margin:0 0 5px}
+.j2StreamlinedRole .j2RoleProofGrid .game a{margin-top:auto}
+.j2StreamlinedRole .j2RoleSnapshot{margin-top:16px}
+.j2StreamlinedRole .j2RoleSnapshot .eyebrow{margin-bottom:8px;font-size:.68rem}
+.j2StreamlinedRole .rolePillGrid span{padding:9px 11px}
+.j2RoleMore,.j2DeepDive,.j2CareerMore,.j2CoachMore,.j2Perspectives{margin-top:14px;border:1px solid #3c4c62;border-radius:10px;background:#111b2a;overflow:hidden}
+.j2RoleMore>summary,.j2DeepDive>summary,.j2CareerMore>summary,.j2CoachMore>summary,.j2Perspectives>summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 17px;color:#f5f7fa;font-weight:750}
+.j2RoleMore>summary::-webkit-details-marker,.j2DeepDive>summary::-webkit-details-marker,.j2CareerMore>summary::-webkit-details-marker,.j2CoachMore>summary::-webkit-details-marker,.j2Perspectives>summary::-webkit-details-marker{display:none}
+.j2RoleMore>summary:after,.j2DeepDive>summary:after,.j2CareerMore>summary:after,.j2CoachMore>summary:after,.j2Perspectives>summary:after{content:"⌄";color:#ff859a;font-size:1.4rem;line-height:1}
+.j2RoleMore[open]>summary:after,.j2DeepDive[open]>summary:after,.j2CareerMore[open]>summary:after,.j2CoachMore[open]>summary:after,.j2Perspectives[open]>summary:after{transform:rotate(180deg)}
+.j2RoleMore>summary span,.j2DeepDive>summary span,.j2CareerMore>summary span,.j2CoachMore>summary span,.j2Perspectives>summary span{font-size:.78rem;color:#b3c2d6;font-weight:450;margin-left:auto}
+.j2RoleMore .archetypeGrid{padding:0 16px 16px}
+.j2StreamlinedGames .j2SectionCompactHead{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.j2StreamlinedGames .j2SectionCompactHead h2{margin-bottom:6px}
+.j2StreamlinedGames .j2SectionCompactHead .intro{margin:0}
+.j2StreamlinedGames .j2SectionCompactHead .button{flex-shrink:0}
+.j2StreamlinedGames .j2DeepDive .gamegrid{padding:0 15px 16px}
+.j2StreamlinedCareer .j2CareerHighlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:17px 0}
+.j2StreamlinedCareer .j2CareerHighlights div{background:#132033;border:1px solid #35465b;border-radius:9px;padding:12px 14px}
+.j2StreamlinedCareer .j2CareerHighlights strong,.j2StreamlinedCareer .j2CareerHighlights span{display:block}
+.j2StreamlinedCareer .j2CareerHighlights strong{font-size:.94rem}
+.j2StreamlinedCareer .j2CareerHighlights span{font-size:.79rem;color:#b6c7de}
+.j2StreamlinedCareer .j2CareerArchive{padding:0 16px 18px}
+.j2StreamlinedCareer .dossierStats{margin-top:0}
+.j2StreamlinedCoaches .intro{margin-bottom:15px}
+.j2StreamlinedCoaches .j2CoachMore .coachBriefList{margin:0 15px 14px}
+.j2StreamlinedCoaches .j2Perspectives .coachVoices{padding:0 16px 16px}
+.j2StreamlinedCoaches .coachBriefActions{margin-top:17px}
+#game-playmaking,#game-sioux-falls,#coach-questions{scroll-margin-top:90px}
+@media(max-width:760px){
+ #role,#film,#games,#dossier,#coaches{padding-top:32px;padding-bottom:36px}
+ .j2HeroClean{padding-top:34px;padding-bottom:28px}
+ .j2StreamlinedRole .j2StoryGrid{grid-template-columns:1fr;gap:12px}
+ .j2StreamlinedRole .j2StoryQuote{padding:13px 15px}
+ .j2StreamlinedRole .j2RoleProofGrid{grid-template-columns:1fr}
+ .j2StreamlinedCareer .j2CareerHighlights{grid-template-columns:1fr;gap:8px}
+ .j2StreamlinedGames .j2SectionCompactHead{flex-direction:column;align-items:flex-start}
+ .j2RoleMore>summary,.j2DeepDive>summary,.j2CareerMore>summary,.j2CoachMore>summary,.j2Perspectives>summary{align-items:flex-start;padding:13px;flex-wrap:wrap}
+ .j2RoleMore>summary span,.j2DeepDive>summary span,.j2CareerMore>summary span,.j2CoachMore>summary span,.j2Perspectives>summary span{order:3;margin-left:0;width:100%}
+}
+</style>
 </head>
 <body>
 <a class="skipLink" href="#main-content">Skip to content</a><header class="siteHeader"><div class="siteNavWrap"><a href="./index.html#profile" class="siteBrand" aria-label="Jordan Lathon player profile">J<span>2</span><span class="brandName"> / JORDAN LATHON</span></a><nav class="siteLinks" aria-label="Primary navigation; swipe horizontally for more sections"><a data-section="profile" href="./index.html#profile">Profile</a><a data-section="role" href="./index.html#role">Role</a><a data-section="film" href="./index.html#film">Film</a><a href="./performance.html">Performance</a><a data-section="dossier" href="./index.html#dossier">Career</a><a data-section="coaches" href="./index.html#coaches">Coaches</a><a data-section="contact" href="./index.html#contact">Contact</a></nav></div></header>
@@ -274,7 +337,7 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 <div class="eyebrow">6'5" Guard · NBA G League experience</div>
 <h1>JORDAN <em>LATHON.</em></h1>
 <p class="lede">Point-of-attack defender. Playmaker. Rebounder. Connector.</p>
-<p class="j2HeroAvailability">Seeking his next professional playing opportunity.</p><div class="j2ProofFirst"><span class="eyebrow">THE PIANO MOVER / PROVEN IN POSSESSIONS</span><p>Physical guard defense. Rebounding. Playmaking without needing the offense built around him.</p><div class="j2ProofStats"><span><strong>14</strong> assists</span><span><strong>9</strong> rebounds</span><span><strong>5</strong> steals</span></div><small>March 22, 2025 · vs. Rip City</small><a href="#game-playmaking">See the game and scouting breakdown ↗</a></div>
+<p class="j2HeroAvailability">Seeking his next professional playing opportunity.</p>
 </div>
 <div class="portrait j2HeroPortrait" aria-label="Jordan Lathon player photo"><img class="playerHeadshot" src="./IMG_0657.PNG" alt="Jordan Lathon — G League headshot" loading="eager" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><div class="placeholder" hidden><b>OFFICIAL PLAYER PHOTO</b><br><small>Photo unavailable; view the NBA G League profile.</small><br><a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">Open official profile ↗</a></div></div>
 <div class="j2HeroBottom">
@@ -284,19 +347,30 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 </div>
 </div>
 </div></section>
-<section class="section j2CompactRole" id="role"><div class="wrap">
-<div class="eyebrow">02 / Scouting identity</div><h2>The Piano Mover.</h2>
-<p class="intro">Point-of-attack defense. Guard rebounding. Quick decisions. Winning the possession battle without needing the ball.</p>
-<div class="rolePillGrid" aria-label="Jordan's four role strengths"><span><b>DEFEND</b> Take the matchup</span><span><b>REBOUND</b> Finish possessions</span><span><b>CONNECT</b> Make the next play</span><span><b>COMPETE</b> Relentless energy</span></div>
-<blockquote class="roleQuote">“My job is to be relentless, compete every possession and make sure we win the possession battle.” <cite>— Jordan Lathon</cite></blockquote>
-<div class="archetypeHeader"><strong class="tag">NBA role archetypes</strong><p>Specific winning habits that shape Jordan's projected role.</p></div>
-<div class="archetypeGrid">
+<section class="section j2CompactRole j2StreamlinedRole" id="role"><div class="wrap">
+<div class="eyebrow">02 / The role</div>
+<div class="j2StoryGrid">
+  <div class="j2StoryCopy">
+    <h2>He knows the job he's applying for.</h2>
+    <p>When I asked Jordan which NBA players he studies, he didn't name the usual scoring stars. He named <strong>Kris Dunn, Alex Caruso, Josh Hart and Gary Payton II.</strong></p>
+    <p>That tells you how he sees his job: defend, rebound, connect teammates and win the next possession. Jordan calls it being a <strong>“piano mover”</strong> — doing the hard work that helps the other four players succeed.</p>
+  </div>
+  <aside class="j2StoryQuote" aria-label="Jordan Lathon on his role">
+    <span>JORDAN / IN HIS OWN WORDS</span>
+    <blockquote>“The things I do aren’t about looking cool or getting credit. My job is to be relentless, compete every possession and make sure we win the possession battle.”</blockquote>
+  </aside>
+</div>
+<div class="j2RoleProof" aria-label="Two featured professional performances">
+ <div class="j2RoleProofHeading"><h3>The production behind the role.</h3><a href="#film-pro">See it on film ↗</a></div>
+ <div class="j2RoleProofGrid"><article class="game" id="game-playmaking"><div class="date">MAR 22, 2025 · RIP CITY REMIX</div><h3>The all-around impact game</h3><div class="numbers"><b>14</b> AST · 9 REB · 5 STL · 8 PTS</div><p>Six offensive rebounds and three turnovers. Playmaking, guard rebounding and defensive disruption in one performance.</p><a target="_blank" rel="noopener" href="https://youtu.be/4g7R6yFFezo?is=SNJ8hWS2LFNdmy3P">Review game highlights ↗</a></article><article class="game j2SiouxGame" id="game-sioux-falls"><div class="date">VS. SIOUX FALLS · SECOND G LEAGUE START</div><h3>Run the team. Elevate teammates.</h3><div class="numbers"><b>13</b> PTS · <b>12</b> AST</div><p>Organized the offense and created opportunities for teammates.</p><a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">Game logs ↗</a></article></div>
+</div>
+<div class="j2RoleSnapshot"><div class="eyebrow">THE PIANO MOVER / FOUR WAYS TO CONTRIBUTE</div><div class="rolePillGrid" aria-label="Jordan's four role strengths"><span><b>DEFEND</b> Take the matchup</span><span><b>REBOUND</b> Finish possessions</span><span><b>CONNECT</b> Make the next play</span><span><b>COMPETE</b> Relentless energy</span></div></div>
+<details class="j2RoleMore"><summary>NBA role archetypes Jordan studies <span>Kris Dunn · Alex Caruso · Josh Hart · Gary Payton II</span></summary><div class="archetypeGrid">
 <article><strong>Kris Dunn</strong><span>Ball pressure &amp; disruption</span><small>Jordan: 14 AST · 9 REB · 5 STL vs. Rip City</small><a href="#game-playmaking">See the game ↗</a></article>
 <article><strong>Alex Caruso</strong><span>Team defense &amp; communication</span><small>Film focus: reads, rotations and recovery</small><a href="#identity-film">Watch film ↗</a></article>
 <article><strong>Josh Hart</strong><span>Guard rebounding &amp; extra possessions</span><small>Jordan: 6 offensive boards vs. Rip City</small><a href="#game-playmaking">See the game ↗</a></article>
 <article><strong>Gary Payton II</strong><span>Low-usage defensive activity</span><small>Film focus: pressure and off-ball impact</small><a href="#identity-film">Watch film ↗</a></article>
-</div>
-<a class="roleFilmLink" href="#identity-film">▶ Watch Jordan's professional film</a>
+</div></details>
 </div></section>
 <section class="section" id="film"><span id="source-queue" class="legacySectionAnchor" aria-hidden="true"></span><div class="wrap"><div class="eyebrow">03 / Film</div><h2>See the role in action.</h2><p class="intro">Start with Jordan's San Diego Clippers highlights. Then see three key possessions that show his impact beyond the box score. Explore the rest only if you want more.</p>
 <div class="identityFilm" id="identity-film">
@@ -314,23 +388,18 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 <summary class="j2FilmArchiveToggle"><span class="j2FilmArchiveToggleText"><strong>More film</strong><small>Professional performances · Morehead State · Player stories</small></span><span class="j2FilmArchiveRight">Full library <span class="j2FilmArchiveChevron" aria-hidden="true">⌄</span></span></summary>
 <div class="j2FilmArchiveBody"><p class="j2FilmArchiveIntro">More game footage, college highlights and player stories. The featured Clippers season film is above.</p>
 <div class="filmList newSourceGrid"><article class="newSource" data-film-type="pro"><div class="newSourceContent"><span class="placeholderLabel">X POST · MARCH 22, 2025</span><h3>BonesGotBizzy · 14 Assists / 9 Rebounds</h3><p>Jordan's March 22, 2025 performance against Rip City Remix: 8 points, 9 rebounds, 14 assists, five steals per the post and RealGM. Role reference: playmaking and possession impact.</p><a href="https://x.com/BonesGotBizzy/status/1903627969169330440" class="button" rel="noopener" target="_blank">Open original X post ↗</a></div></article><article class="newSource" data-film-type="college" id="film-college"><div class="videoStage" data-video-id="amvqpgRJPng"><button class="videoLaunch" type="button" aria-label="Play Morehead State · 2023–24 Highlights here"><img loading="lazy" decoding="async" src="https://img.youtube.com/vi/amvqpgRJPng/hqdefault.jpg" alt=""><span class="playEmblem" aria-hidden="true">▶</span><span class="launchLabel">Play here</span></button></div><div class="newSourceContent"><span class="placeholderLabel">COLLEGE · 2023–24</span><h3>Morehead State · 2023–24 Highlights</h3><p>Jordan's Morehead State senior-season highlight compilation. Supports evaluation of complementary offense and versatility, with college-level context.</p><a href="https://www.youtube.com/watch?v=amvqpgRJPng" target="_blank" rel="noopener" class="button">Open original video ↗</a></div></article><article class="newSource" data-film-type="college"><div class="videoStage" data-video-id="5TZi2vwgmm0"><button class="videoLaunch" type="button" aria-label="Play Morehead State vs Indiana · 30-Point Game here"><img loading="lazy" decoding="async" src="https://img.youtube.com/vi/5TZi2vwgmm0/hqdefault.jpg" alt=""><span class="playEmblem" aria-hidden="true">▶</span><span class="launchLabel">Play here</span></button></div><div class="newSourceContent"><span class="placeholderLabel">COLLEGE · DEC 2023</span><h3>Morehead State vs Indiana · 30-Point Game</h3><p>Highlights from Morehead State's 69–68 loss at Indiana, when Jordan scored 30 points. A look at Jordan’s ability to score against Big Ten competition.</p><a href="https://www.youtube.com/watch?v=5TZi2vwgmm0" target="_blank" rel="noopener" class="button">Open original video ↗</a></div></article><article class="newSource" data-film-type="college"><div class="videoStage" data-video-id="4g7R6yFFezo"><button class="videoLaunch" type="button" aria-label="Play College Film · Skill Breakdown here"><img loading="lazy" decoding="async" src="https://img.youtube.com/vi/4g7R6yFFezo/hqdefault.jpg" alt=""><span class="playEmblem" aria-hidden="true">▶</span><span class="launchLabel">Play here</span></button></div><div class="newSourceContent"><span class="placeholderLabel">COLLEGE · SKILL BREAKDOWN</span><h3>College Film · Skill Breakdown</h3><p>The supplied screenshot highlights ball handling, perimeter shooting, offensive rebounding and finishing. Watch the original clip for ball handling, perimeter shooting, rebounding and finishing.</p><a href="https://www.youtube.com/watch?v=4g7R6yFFezo" target="_blank" rel="noopener" class="button">Open original video ↗</a></div></article><article class="newSource" data-film-type="college"><div class="videoStage" data-video-id="ixoq7ZEQAsw"><button class="videoLaunch" type="button" aria-label="Play College Film · Additional Highlights here"><img loading="lazy" decoding="async" src="https://img.youtube.com/vi/ixoq7ZEQAsw/hqdefault.jpg" alt=""><span class="playEmblem" aria-hidden="true">▶</span><span class="launchLabel">Play here</span></button></div><div class="newSourceContent"><span class="placeholderLabel">COLLEGE · ADDITIONAL COLLEGE FILM</span><h3>College Film · Additional Highlights</h3><p>Linked to the additional college footage you identified in screenshots 4 and 5. Additional college footage from Jordan’s playing career.</p><a href="https://www.youtube.com/watch?v=ixoq7ZEQAsw" target="_blank" rel="noopener" class="button">Open original video ↗</a></div></article><article class="newSource" data-film-type="college"><div class="videoStage" data-video-id="9F-DdEbAo8g"><button class="videoLaunch" type="button" aria-label="Play UTEP · Game-Winning Shot vs Rice here"><img loading="lazy" decoding="async" src="https://img.youtube.com/vi/9F-DdEbAo8g/hqdefault.jpg" alt=""><span class="playEmblem" aria-hidden="true">▶</span><span class="launchLabel">Play here</span></button></div><div class="newSourceContent"><span class="placeholderLabel">COLLEGE · JAN 2019</span><h3>UTEP · Game-Winning Shot vs Rice</h3><p>Verified video title: Jordan hit the buzzer-beating baseline jumper as UTEP beat Rice 65–64. Historical clutch-scoring example.</p><a href="https://www.youtube.com/watch?v=9F-DdEbAo8g" target="_blank" rel="noopener" class="button">Open original video ↗</a></div></article><article class="newSource" data-film-type="story"><div class="videoStage" data-video-id="T-cc-HwPnwE"><button class="videoLaunch" type="button" aria-label="Play Morehead State · Senior Year Reflections here"><img loading="lazy" decoding="async" src="https://img.youtube.com/vi/T-cc-HwPnwE/hqdefault.jpg" alt=""><span class="playEmblem" aria-hidden="true">▶</span><span class="launchLabel">Play here</span></button></div><div class="newSourceContent"><span class="placeholderLabel">PLAYER STORY · MOREHEAD STATE</span><h3>Morehead State · Senior Year Reflections</h3><p>Jordan and a college coach reflect on his senior-year journey, development and time with the Eagles. A window into his competitive mentality, team-first attitude and development.</p><a href="https://www.youtube.com/watch?v=T-cc-HwPnwE" target="_blank" rel="noopener" class="button">Open original video ↗</a></div></article><article class="newSource" data-film-type="pro"><div class="newSourceContent"><span class="placeholderLabel">X POST · TEAM RECAP</span><h3>San Diego Clippers · Season Recap</h3><p>Team-authored recap celebrating Jordan's first San Diego season, referencing a team-high 14 assists and a double-double. Some footage may overlap with other entries.</p><a href="https://x.com/sandiego_clips/status/1913291525724811512" class="button" rel="noopener" target="_blank">Open original X post ↗</a></div></article></div><p class="filmFooter">More film and full-game context available through the original publishers. <a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">G League profile ↗</a></p></div></details></div></section>
-<section class="section" id="games"><div class="wrap"><div class="eyebrow">04 / Signature performances</div><h2>Big moments. Different ways to win.</h2><p class="intro">Standout professional games, across playmaking, rebounding, defense and scoring.</p>
-<div class="gamegrid" id="gamegrid"><article class="game j2SiouxGame" id="game-sioux-falls"><div class="date">VS. SIOUX FALLS · SECOND G LEAGUE START</div><h3>Run the team. Elevate teammates.</h3><div class="numbers"><b>13</b> PTS · <b>12</b> AST</div><p>Organized the offense and created opportunities for teammates.</p><a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">Game logs ↗</a></article>
-<article class="game" id="game-playmaking"><div class="date">MAR 22, 2025 · RIP CITY REMIX</div><h3>The all-around impact game</h3><div class="numbers"><b>14</b> AST · 9 REB · 5 STL · 8 PTS</div><p>Six offensive rebounds and three turnovers. Playmaking, guard rebounding and defensive disruption in one performance.</p><a target="_blank" rel="noopener" href="https://youtu.be/4g7R6yFFezo?is=SNJ8hWS2LFNdmy3P">Review game highlights ↗</a></article>
-<article class="game"><div class="date">JAN 16, 2025 · CAPITAL CITY GO-GO</div><h3>Scoring and defensive activity</h3><div class="numbers"><b>18</b> PTS · 3 STL · 2 BLK · 0 TO</div><p>Scoring and defensive activity in 27:36.</p><a target="_blank" rel="noopener" href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153">Review game log ↗</a></article>
-<article class="game"><div class="date">JAN 1, 2025 · RIP CITY REMIX</div><h3>Scoring when called upon</h3><div class="numbers"><b>20</b> PTS · 5 REB · 3 AST</div><p>9/17 shooting from the field and 2/4 from three. Scored efficiently when called upon.</p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2_RS-euaNHk">Review game highlights ↗</a></article>
-</div>
-<div class="performanceEntry" style="margin:22px 0;padding:20px;border:1px solid #6c3343;border-radius:10px;background:#181923"><strong style="display:block;color:#ff91a4;letter-spacing:.08em;font-size:.78rem">PERFORMANCE DETAILS</strong><h3 style="margin:8px 0">Production across different roles</h3><p style="color:#c7d2e2;margin:8px 0 16px">Explore starts, playing time, efficiency and complete game logs.</p><a class="button primary" href="./performance.html">Explore performance splits →</a></div>
-
-
+<section class="section j2StreamlinedGames" id="games"><div class="wrap">
+<div class="eyebrow">04 / More performances</div>
+<div class="j2SectionCompactHead"><div><h2>More ways to contribute.</h2><p class="intro">Additional G League performances and full career splits for a deeper evaluation.</p></div><a class="button primary" href="./performance.html">Explore performance splits →</a></div>
+<details class="j2DeepDive"><summary>Two more professional games <span>18 points vs. Capital City · 20 points vs. Rip City</span></summary><div class="gamegrid" id="gamegrid"><article class="game"><div class="date">JAN 16, 2025 · CAPITAL CITY GO-GO</div><h3>Scoring and defensive activity</h3><div class="numbers"><b>18</b> PTS · 3 STL · 2 BLK · 0 TO</div><p>Scoring and defensive activity in 27:36.</p><a target="_blank" rel="noopener" href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153">Review game log ↗</a></article><article class="game"><div class="date">JAN 1, 2025 · RIP CITY REMIX</div><h3>Scoring when called upon</h3><div class="numbers"><b>20</b> PTS · 5 REB · 3 AST</div><p>9/17 shooting from the field and 2/4 from three. Scored efficiently when called upon.</p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2_RS-euaNHk">Review game highlights ↗</a></article></div></details>
 </div></section>
-<section class="section dossierSection" id="dossier" aria-labelledby="dossierTitle"><span id="journey" class="legacySectionAnchor" aria-hidden="true"></span><div class="wrap">
-<div class="eyebrow">03 / Dossier</div><h2 id="dossierTitle">The complete player.</h2><p class="intro">From college production to professional experience. The résumé behind J2's game.</p>
-<div class="dossierIntro"><div class="dossierLabel">SCOUTING PROFILE</div><p>Jordan Lathon is a 6'5" guard with NBA G League experience pursuing a defined complementary role: point-of-attack defense, connective playmaking, rebounding and possession-winning activity. His selected professional performances show playmaking, defensive events and scoring when called upon; film and coaching references remain important to evaluating consistency.</p></div>
-
-<div class="dossierStats dossierCareer">
+<section class="section dossierSection j2StreamlinedCareer" id="dossier" aria-labelledby="dossierTitle"><span id="journey" class="legacySectionAnchor" aria-hidden="true"></span><div class="wrap">
+<div class="eyebrow">05 / Career</div>
+<h2 id="dossierTitle">The résumé behind the role.</h2>
+<div class="j2CareerHighlights" aria-label="Career at a glance"><div><strong>San Diego Clippers</strong><span>NBA G League · 2024–25</span></div><div><strong>First-Team All-OVC</strong><span>Morehead State · 2023–24</span></div><div><strong>NCAA Tournament</strong><span>Morehead State · 2024</span></div></div>
+<details class="j2CareerMore"><summary>Career seasons, statistics &amp; honors <span>Explore full history</span></summary><div class="j2CareerArchive"><div class="dossierStats dossierCareer">
 <div class="dossierStatsHeading"><div><span class="dossierLabel">CAREER JOURNEY</span><h3>Season by season.</h3><p>One career timeline, with the numbers, teams and key moments together.</p></div><p>Select a season to explore ↓</p></div>
-<details class="seasonRow seasonFeature" open><summary><span><strong>2024–25 · San Diego Clippers</strong><small>NBA G League · Rookie professional season</small></span><span class="seasonToggle" aria-hidden="true">+</span></summary><div class="seasonData"><div><b>45</b><small>GP*</small></div><div><b>5.0</b><small>PPG*</small></div><div><b>2.5</b><small>RPG*</small></div><div><b>2.4</b><small>APG*</small></div><div><b>0.8</b><small>SPG*</small></div><div><b>31.2%</b><small>3PT*</small></div></div><p class="seasonNarrative">Professional debut with San Diego. Signature outings included 14 assists, nine rebounds and five steals against Rip City, and 18 points with three steals, two blocks and zero turnovers against Capital City. <a href="#games">See signature games ↓</a></p><p class="seasonCitation">*Season figures shown across the regular season and Showcase Cup; not one official competition split. <a href="https://basketball.realgm.com/player/Jordan-Lathon/Summary/132153" target="_blank" rel="noopener">Statistical record ↗</a> · <a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">NBA G League profile ↗</a></p></details>
+<details class="seasonRow seasonFeature"><summary><span><strong>2024–25 · San Diego Clippers</strong><small>NBA G League · Rookie professional season</small></span><span class="seasonToggle" aria-hidden="true">+</span></summary><div class="seasonData"><div><b>45</b><small>GP*</small></div><div><b>5.0</b><small>PPG*</small></div><div><b>2.5</b><small>RPG*</small></div><div><b>2.4</b><small>APG*</small></div><div><b>0.8</b><small>SPG*</small></div><div><b>31.2%</b><small>3PT*</small></div></div><p class="seasonNarrative">Professional debut with San Diego. Signature outings included 14 assists, nine rebounds and five steals against Rip City, and 18 points with three steals, two blocks and zero turnovers against Capital City. <a href="#games">See signature games ↓</a></p><p class="seasonCitation">*Season figures shown across the regular season and Showcase Cup; not one official competition split. <a href="https://basketball.realgm.com/player/Jordan-Lathon/Summary/132153" target="_blank" rel="noopener">Statistical record ↗</a> · <a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">NBA G League profile ↗</a></p></details>
 <details class="seasonRow"><summary><span><strong>2023–24 · Morehead State</strong><small>NCAA Division I · First-Team All-OVC · NCAA Tournament</small></span><span class="seasonToggle" aria-hidden="true">+</span></summary><div class="seasonData"><div><b>31</b><small>GP</small></div><div><b>15.6</b><small>PPG</small></div><div><b>6.0</b><small>RPG</small></div><div><b>2.4</b><small>APG</small></div><div><b>38.4%</b><small>3PT</small></div><div><b>43.7%</b><small>FG</small></div></div><p class="seasonCitation"><a href="https://www.sports-reference.com/cbb/schools/morehead-state/men/2024.html" target="_blank" rel="noopener">Season statistics ↗</a> · <a href="https://ovcsports.com/news/2024/3/4/morehead-states-minix-little-rocks-walker-and-crocker-johnson-and-wius-cisse-earn-2023-24-ovc-mens-basketball-top-honors.aspx" target="_blank" rel="noopener">All-OVC honor ↗</a></p></details>
 <details class="seasonRow"><summary><span><strong>2021–22 · Milwaukee</strong><small>NCAA Division I · Horizon League</small></span><span class="seasonToggle" aria-hidden="true">+</span></summary><div class="seasonData"><div><b>30</b><small>GP</small></div><div><b>7.5</b><small>PPG</small></div><div><b>5.3</b><small>RPG</small></div><div><b>2.7</b><small>APG</small></div><div><b>30.9%</b><small>3PT</small></div><div><b>38.1%</b><small>FG</small></div></div><p class="seasonCitation"><a href="https://www.sports-reference.com/cbb/players/jordan-lathon-1.html" target="_blank" rel="noopener">College statistics ↗</a></p></details>
 <details class="seasonRow"><summary><span><strong>2019–20 · UTEP</strong><small>NCAA Division I · Conference USA</small></span><span class="seasonToggle" aria-hidden="true">+</span></summary><div class="seasonData"><div><b>30</b><small>GP</small></div><div><b>5.0</b><small>PPG</small></div><div><b>4.6</b><small>RPG</small></div><div><b>3.1</b><small>APG</small></div><div><b>22.2%</b><small>3PT</small></div><div><b>30.6%</b><small>FG</small></div></div><p class="seasonCitation"><a href="https://www.sports-reference.com/cbb/players/jordan-lathon-1.html" target="_blank" rel="noopener">College statistics ↗</a></p></details>
@@ -346,33 +415,22 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
 <li><strong>NCAA Tournament appearance</strong><span>Morehead State · 2024</span></li>
 <li><strong>32 points, 18 rebounds vs. Rice</strong><span>UTEP freshman record for points</span></li>
 <li><strong>Game-winning buzzer-beater vs. Rice</strong><span>UTEP · 2018–19</span></li>
-</ul></div></section>
-<section class="section coachBrief" id="coaches" aria-labelledby="coachBriefTitle"><span id="coach-brief" class="legacySectionAnchor" aria-hidden="true"></span><div class="wrap">
-<div class="eyebrow">04 / Coaches</div>
+</ul></div></div></details>
+</div></section>
+<section class="section coachBrief j2StreamlinedCoaches" id="coaches" aria-labelledby="coachBriefTitle"><span id="coach-brief" class="legacySectionAnchor" aria-hidden="true"></span><div class="wrap">
+<div class="eyebrow">06 / Coaches</div>
 <h2 id="coachBriefTitle">What a coach needs to know.</h2>
-<p class="intro">A quick look at how Jordan sees his role, followed by six questions a coaching staff can use to evaluate his fit.</p>
-<article class="coachStory" aria-labelledby="coachStoryTitle">
-  <div class="coachStoryHeader">
-    <span class="coachStoryKicker">THE PLAYER BEHIND THE NUMBERS / FROM CONVERSATIONS WITH JORDAN</span>
-    <h3 id="coachStoryTitle">He knows the job he's applying for.</h3>
-    <p class="coachStoryDeck">The players Jordan studies tell you something about the player he's trying to become.</p>
-  </div>
-  <div class="coachStoryMain">
-    <div class="coachStoryCopy">
-      <p>Most young guards can tell you about the stars they admire. When I asked Jordan Lathon which NBA players he studies, his answer caught my attention: <strong>Kris Dunn, Alex Caruso, Josh Hart and Gary Payton II.</strong></p>
-      <p>Different players, different strengths. But they all understand how to impact winning without needing the offense built around them. They defend, rebound, communicate and make the next play.</p>
-      <p>Jordan calls that kind of work being a <strong>“piano mover.”</strong> The guy doing the hard work that helps the other four players succeed.</p>
-      <p>Then I looked at his March 22 game against Rip City: <strong>8 points, 14 assists, 9 rebounds and 5 steals.</strong> Not a complete evaluation, but a compelling reason to look beyond points per game and watch the possessions. <a href="#game-playmaking">Explore that performance ↗</a></p>
-      <p><strong>Here's the recruiting question:</strong> if your roster needs a physical guard who can defend at the point of attack, move the ball and create extra possessions, isn't that a role worth evaluating?</p>
-    </div>
-    <aside class="coachStoryQuote" aria-label="Jordan's words about his role">
-      <span>JORDAN / IN HIS OWN WORDS</span>
-      <blockquote>“The things I do aren’t about looking cool or getting credit. My job is to be relentless, compete every possession and make sure we win the possession battle.”</blockquote>
-      <p>Jordan on the “piano mover” mindset</p>
-      <a href="#film-pro">Watch his professional film ↗</a>
-    </aside>
-  </div>
-  <div class="coachVoices" aria-label="Additional firsthand perspectives to be added">
+<p class="intro">A defined complementary role, professional film and clear next steps for a workout or evaluation.</p>
+<details class="j2CoachMore"><summary>Six questions to evaluate Jordan's fit <span>Role · Defense · Scoring · Decisions · References · Availability</span></summary><div class="coachBriefList" id="coach-questions" aria-label="Six scouting questions">
+<details class="coachQuestion"><summary><span class="coachIndex">01</span><span>What role can he fill—and what happens without the ball?</span></summary><div class="coachAnswer"><p>Jordan is a 6'5" connective guard who can support a lead creator, move the ball, rebound and compete for extra possessions. His March 22 performance against Rip City featured 14 assists, nine rebounds and six offensive boards. His contributions don't have to start with a shot attempt.</p><a href="#game-playmaking">Explore his all-around game ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">02</span><span>Can he take challenging defensive assignments?</span></summary><div class="coachAnswer"><p>Jordan reports experience defending positions 1–4. On the professional level, he recorded five steals against Rip City and three steals with two blocks against Capital City. His game film provides the best look at his positioning, activity and matchup versatility.</p><a href="#film">Watch professional film ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">03</span><span>Can he score when the role expands?</span></summary><div class="coachAnswer"><p>His professional highlights include 20 points against Rip City and 18 against Capital City. At Morehead State, he averaged 15.6 points in 2023–24 and scored 30 against Indiana.</p><a href="#games">See his signature games ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">04</span><span>How does he make decisions with the ball?</span></summary><div class="coachAnswer"><p>His 14-assist, three-turnover game against Rip City offers a starting point. Jordan also reports a 13-point, 12-assist performance against Sioux Falls; its box score is being reconciled before publication as verified. Watch how he handles tempo, finds cutters and plays alongside other creators.</p><a href="#film-pro">Start with his G League highlights ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">05</span><span>What would his former coaches tell us?</span></summary><div class="coachAnswer"><p>Jordan has shared encouraging coaching feedback about his approach and development. Specific references can be discussed through an approved introduction. The Morehead State senior reflections video also offers a window into his playing journey.</p><a href="#film">Explore his player story ↗</a></div></details>
+<details class="coachQuestion"><summary><span class="coachIndex">06</span><span>Is he available, and what's the next evaluation step?</span></summary><div class="coachAnswer"><p>Jordan is an unrestricted free agent, according to his current status confirmation, and is available for a G League conversation. Start with his professional highlights and four featured performances, then discuss full-game footage, a workout or a conversation with his coaching references.</p><a href="#contact">Discuss the next opportunity ↗</a></div></details>
+</div>
+</details>
+<details class="j2Perspectives"><summary>Coach &amp; teammate perspectives <span>Additional perspectives coming soon</span></summary><div class="coachVoices" aria-label="Additional firsthand perspectives to be added">
     <div class="coachVoice">
       <span>TEAMMATE PERSPECTIVE / COMING SOON</span>
       <p>What is Jordan like to play alongside? A firsthand teammate observation will be added after the conversation and approval.</p>
@@ -381,27 +439,7 @@ h2{font-weight:880}h3{letter-spacing:-.02em}
       <span>COACH'S PERSPECTIVE / COMING SOON</span>
       <p>What role did Jordan earn in practice and games? A direct coaching perspective will be added when available for publication.</p>
     </div>
-  </div>
-  <a class="coachStoryJump" href="#coach-questions">Six scouting questions ↓</a>
-</article>
-<div class="coachBriefList" id="coach-questions" aria-label="Six scouting questions">
-<details class="coachQuestion" open><summary><span class="coachIndex">01</span><span>What role can he fill—and what happens without the ball?</span></summary><div class="coachAnswer"><p>Jordan is a 6'5" connective guard who can support a lead creator, move the ball, rebound and compete for extra possessions. His March 22 performance against Rip City featured 14 assists, nine rebounds and six offensive boards. His contributions don't have to start with a shot attempt.</p><a href="#game-playmaking">Explore his all-around game ↗</a></div></details>
-<details class="coachQuestion"><summary><span class="coachIndex">02</span><span>Can he take challenging defensive assignments?</span></summary><div class="coachAnswer"><p>Jordan reports experience defending positions 1–4. On the professional level, he recorded five steals against Rip City and three steals with two blocks against Capital City. His game film provides the best look at his positioning, activity and matchup versatility.</p><a href="#film">Watch professional film ↗</a></div></details>
-<details class="coachQuestion"><summary><span class="coachIndex">03</span><span>Can he score when the role expands?</span></summary><div class="coachAnswer"><p>His professional highlights include 20 points against Rip City and 18 against Capital City. At Morehead State, he averaged 15.6 points in 2023–24 and scored 30 against Indiana.</p><a href="#games">See his signature games ↗</a></div></details>
-<details class="coachQuestion"><summary><span class="coachIndex">04</span><span>How does he make decisions with the ball?</span></summary><div class="coachAnswer"><p>His 14-assist, three-turnover game against Rip City offers a starting point. Jordan also reports a 13-point, 12-assist performance against Sioux Falls; its box score is being reconciled before publication as verified. Watch how he handles tempo, finds cutters and plays alongside other creators.</p><a href="#film-pro">Start with his G League highlights ↗</a></div></details>
-<details class="coachQuestion"><summary><span class="coachIndex">05</span><span>What would his former coaches tell us?</span></summary><div class="coachAnswer"><p>Jordan has shared encouraging coaching feedback about his approach and development. Specific references can be discussed through an approved introduction. The Morehead State senior reflections video also offers a window into his playing journey.</p><a href="#film">Explore his player story ↗</a></div></details>
-<details class="coachQuestion"><summary><span class="coachIndex">06</span><span>Is he available, and what's the next evaluation step?</span></summary><div class="coachAnswer"><p>Jordan is an unrestricted free agent, according to his current status confirmation, and is available for a G League conversation. Start with his professional highlights and four featured performances, then discuss full-game footage, a workout or a conversation with his coaching references.</p><a href="#contact">Discuss the next opportunity ↗</a></div></details>
-</div>
-<div class="coachFit" aria-labelledby="coachFitTitle">
-  <span class="coachStoryKicker">THE BASKETBALL CASE / WHAT HE CAN BRING</span>
-  <h3 id="coachFitTitle">Coach, here's where J2 fits.</h3>
-  <p>Not a request to build the offense around him. A chance to evaluate a complementary guard with professional film, experience, and a defined role.</p>
-  <div class="coachFitGrid">
-    <div><strong>01 / Defend your perimeter</strong><p>Physical point-of-attack effort and the willingness to take difficult guard assignments.</p></div>
-    <div><strong>02 / Connect your offense</strong><p>Move the ball, find teammates and support a lead creator without demanding touches.</p></div>
-    <div><strong>03 / Win extra possessions</strong><p>Rebound from the guard spot, compete on loose balls and keep plays alive.</p></div>
-  </div>
-</div>
+  </div></details>
 <div class="coachBriefActions"><a class="button primary" href="#film-pro">▶ Watch professional film</a><button class="button" type="button" onclick="window.print()" aria-label="Print or save a PDF of Jordan Lathon's one-page scouting brief">Save / print one-page brief</button><a class="button" href="#contact">Discuss J2 →</a></div>
 </div></section>
 <section class="section" id="contact"><div class="wrap"><div class="eyebrow">05 / Contact</div><h2>Let’s talk about the next opportunity.</h2><p class="intro">For coaches, scouts and professional teams evaluating Jordan for his next playing opportunity. Connect through Jordan’s approved professional contact once listed.</p><span class="placeholderLabel">PROFESSIONAL CONTACT DETAILS PENDING</span><div class="sources"><strong>Source documents</strong><a href="https://gleague.nba.com/player/1642584/jordan-lathon" target="_blank" rel="noopener">NBA G League official profile ↗</a><a href="https://basketball.realgm.com/player/Jordan-Lathon/GameLogs/132153" target="_blank" rel="noopener">RealGM game logs ↗</a><a href="https://gleague.nba.com/game/mhu-vs-sdc-2022400025" target="_blank" rel="noopener">Official game page: Memphis Hustle ↗</a></div></div></section>
@@ -473,5 +511,10 @@ window.addEventListener('hashchange',reveal);reveal();})();
 const first='./media/possessions/Jordan_Lathon_possession_first_V3.mp4';
 fetch(first,{method:'HEAD',cache:'no-store'}).then(r=>{if(r.ok)block.hidden=false}).catch(()=>{});
 })();
-</script></body></html>
+</script><script>
+/* Make deep links into collapsed scouting sections usable. */
+(()=>{const reveal=()=>{if(!location.hash)return;let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}const node=document.getElementById(id);if(!node)return;for(let parent=node.parentElement;parent;parent=parent.parentElement){if(parent.tagName==='DETAILS')parent.open=true;}};
+window.addEventListener('hashchange',reveal);reveal();})();
+</script>
+</body></html>
 
