@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-11-10",
+  "record_purpose": "Single source for film inventory and scouting decisions; not automated video truth",
+  "review_scope": {
+    "lakers": "Nine uploaded Lakers MP4s reviewed through timestamped frame sequences; two outcomes further confirmed by user",
+    "san_diego": "Three known hosted San Diego videos listed pending direct original-MP4 review",
+    "limitations": [
+      "Frame samples are not sufficient for all event-level causality, exact player assignment, final outcome, or grading.",
+      "User-confirmed clip labels are distinguished from frame observations.",
+      "Feature candidates are not final coach-graded picks."
+    ]
+  },
+  "clips": [
+    {
+      "id": "lakers-01",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (1).mp4",
+      "media_path": "media/lakers-exhibition/defense-paint-baseline.mp4",
+      "duration_seconds": 5.4,
+      "title": "Interior help and baseline contest",
+      "phase": "defense",
+      "tags": [
+        "interior-help",
+        "contest",
+        "recovery"
+      ],
+      "observable_action": "White #32 is involved in the paint-side defensive action as the ball attacks the right side of the basket.",
+      "outcome_assessment": "Contest and nearby recovery are visible; whether the shot or possession is successfully stopped is not established.",
+      "feature_status": "supporting",
+      "team_fit_note": "Iowa: review as help-side and recovery sample; not proof of point-of-attack containment.",
+      "review_method": "frame-sampled",
+      "review_limit": "result_requires_full_replay",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-02",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (2).mp4",
+      "media_path": "media/lakers-exhibition/offense-halfcourt-movement.mp4",
+      "duration_seconds": 10.03,
+      "title": "Half-court offensive possession",
+      "phase": "offense",
+      "tags": [
+        "spacing",
+        "off-ball-movement"
+      ],
+      "observable_action": "White #32 appears in a longer half-court offensive sequence with multiple ball movements and perimeter-to-paint actions.",
+      "outcome_assessment": "A direct assist, shot or decisive contribution from Jordan is not established in sampled frames.",
+      "feature_status": "archive",
+      "team_fit_note": "Not a lead clip without isolating Jordan's touch or off-ball effect.",
+      "review_method": "frame-sampled",
+      "review_limit": "player_action_not_fully_isolated",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-03",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (3).mp4",
+      "media_path": "media/lakers-exhibition/transition-open-floor.mp4",
+      "duration_seconds": 8.67,
+      "title": "Hustle and offensive rebound",
+      "phase": "offense",
+      "tags": [
+        "offensive-rebound",
+        "hustle",
+        "extra-possession"
+      ],
+      "observable_action": "White #32 pursues action near the basket during a broken/transitioning play; user identified the key action as an offensive rebound.",
+      "outcome_assessment": "An offensive board is user-confirmed; the final possession outcome beyond the rebound requires fuller context.",
+      "feature_status": "featured-candidate",
+      "team_fit_note": "Wisconsin: create extra offensive opportunity; Iowa: physicality only—not defensive rebounding.",
+      "review_method": "user-confirmed-and-frame-sampled",
+      "review_limit": "rebound_user_confirmed",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-04",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (4).mp4",
+      "media_path": "media/lakers-exhibition/offense-spacing-passing.mp4",
+      "duration_seconds": 10.77,
+      "title": "Half-court spacing and offensive movement",
+      "phase": "offense",
+      "tags": [
+        "spacing",
+        "off-ball-movement"
+      ],
+      "observable_action": "White #32 remains involved in spacing and movement during a sustained offensive half-court sequence.",
+      "outcome_assessment": "No specific assist, shot result or advantage creation by Jordan is established.",
+      "feature_status": "archive",
+      "team_fit_note": "Do not claim playmaking success solely from the team ball movement.",
+      "review_method": "frame-sampled",
+      "review_limit": "player_action_not_fully_isolated",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-05",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (5).mp4",
+      "media_path": "media/lakers-exhibition/defense-interior-effort.mp4",
+      "duration_seconds": 18.2,
+      "title": "Interior loose-ball collision and reset",
+      "phase": "defense",
+      "tags": [
+        "loose-ball",
+        "contact",
+        "recovery",
+        "following-possession"
+      ],
+      "observable_action": "Jordan #32 is on the floor during an interior loose-ball/collision sequence, then the camera follows a new opponent possession while #32 is back on defense.",
+      "outcome_assessment": "A successful stop, steal, or demonstrated matchup containment cannot be credited from the reviewed frames.",
+      "feature_status": "archive-not-featured",
+      "team_fit_note": "Remove from Iowa lead film: length alone does not demonstrate an effective defensive possession.",
+      "review_method": "frame-sampled",
+      "review_limit": "outcome_not_established",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-06",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (6).mp4",
+      "media_path": "media/lakers-exhibition/offense-extended-possession.mp4",
+      "duration_seconds": 13.23,
+      "title": "Extended offensive possession and spacing",
+      "phase": "offense",
+      "tags": [
+        "off-ball-activity",
+        "spacing",
+        "second-action"
+      ],
+      "observable_action": "Extended half-court sequence with #32 visible around the lane and weak side as the ball changes sides.",
+      "outcome_assessment": "Direct scoring or creation by Jordan is not isolated.",
+      "feature_status": "archive",
+      "team_fit_note": "Useful for coach-led off-ball review only when Jordan's action is specifically identified.",
+      "review_method": "frame-sampled",
+      "review_limit": "player_action_not_fully_isolated",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-07",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (7).mp4",
+      "media_path": "media/lakers-exhibition/transition-to-halfcourt.mp4",
+      "duration_seconds": 16.77,
+      "title": "Three-pointer, pump fake and assist",
+      "phase": "offense",
+      "tags": [
+        "three-point-shooting",
+        "shot-fake",
+        "assist",
+        "decision-making"
+      ],
+      "observable_action": "The footage contains successive offensive actions around the basket and perimeter; user identified a three-pointer followed by a pump fake and assist.",
+      "outcome_assessment": "The described shot and assist are user-confirmed, while pass quality and defensive response require a close, continuous review.",
+      "feature_status": "featured-candidate",
+      "team_fit_note": "Wisconsin: offensive compatibility alongside scoring guards; not a primary defensive demonstration.",
+      "review_method": "user-confirmed-and-frame-sampled",
+      "review_limit": "scoring_and_assist_user_confirmed",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-08",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers (20261110-225840).mp4",
+      "media_path": "media/lakers-exhibition/defense-point-of-attack.mp4",
+      "duration_seconds": 11.37,
+      "title": "Perimeter defensive matchup and transition",
+      "phase": "defense",
+      "tags": [
+        "perimeter-defense",
+        "containment",
+        "transition"
+      ],
+      "observable_action": "Jordan is visible in white during a perimeter defensive sequence as the yellow team works the ball, then play moves rapidly upcourt.",
+      "outcome_assessment": "A forced turnover or completed stop attributable to Jordan cannot yet be established from sampled frames.",
+      "feature_status": "featured-candidate-for-review",
+      "team_fit_note": "Iowa: examine on-ball footwork and whether his matchup is contained; do not present as proven stop.",
+      "review_method": "frame-sampled",
+      "review_limit": "stop_not_established",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    },
+    {
+      "id": "lakers-09",
+      "source_game": "Exhibition vs Lakers",
+      "player": "Jordan Lathon",
+      "player_identification": "#32 white (user confirmed)",
+      "original_filename": "Exhibition vs Lakers .mp4",
+      "media_path": "media/lakers-exhibition/perimeter-shooting.mp4",
+      "duration_seconds": 1.97,
+      "title": "Brief perimeter shooting fragment",
+      "phase": "offense",
+      "tags": [
+        "shooting"
+      ],
+      "observable_action": "Two-second perimeter fragment with insufficient approach and follow-through context.",
+      "outcome_assessment": "User removed this clip from the website; its result is not established.",
+      "feature_status": "excluded",
+      "team_fit_note": "Retain source only; do not use in coach-ready film.",
+      "review_method": "frame-sampled",
+      "review_limit": "excluded_by_user",
+      "source_type": "uploaded MP4",
+      "uploaded_source_review": "nine original MP4s sampled at nine positions each; outcome claims require temporal verification"
+    }
+  ],
+  "san_diego_pending": [
+    {
+      "id": "sd-defense-transition",
+      "media_path": "media/possessions/B_OKC_defensive_to_transition.mp4",
+      "title": "Defense into transition",
+      "review_status": "pending_original_video_review",
+      "website_usage": "Wisconsin feature; not independently reviewed from original MP4 in this pass"
+    },
+    {
+      "id": "sd-v3-reel",
+      "media_path": "media/possessions/Jordan_Lathon_possession_first_V3.mp4",
+      "title": "Possession-first V3 reel",
+      "review_status": "pending_original_video_review",
+      "website_usage": "Main-site featured possession"
+    },
+    {
+      "id": "sd-full-halfcourt",
+      "media_path": "media/possessions/A_full_halfcourt_action.mp4",
+      "title": "Full half-court action",
+      "review_status": "pending_original_video_review",
+      "website_usage": "Main-site featured possession"
+    }
+  ],
+  "team_shortlists": {
+    "wisconsin": {
+      "priorities": [
+        "second-side creation",
+        "offensive extra possessions",
+        "defensive support"
+      ],
+      "clip_ids": [
+        "lakers-07",
+        "lakers-03"
+      ],
+      "pending_video": "sd-defense-transition",
+      "comment": "Use verified user-labeled offense/rebound and review the San Diego defensive MP4 before asserting a successful stop."
+    },
+    "iowa": {
+      "priorities": [
+        "point-of-attack containment",
+        "help/recovery",
+        "finishing stops"
+      ],
+      "clip_ids": [
+        "lakers-08",
+        "lakers-01"
+      ],
+      "supplementary_clip_id": "lakers-03",
+      "comment": "Defensive assignments need outcome-level verification; offensive rebound demonstrates hustle, not defensive-rebound performance. Do not feature lakers-05 as successful defensive effort."
+    }
+  }
+}
